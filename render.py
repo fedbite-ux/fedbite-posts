@@ -1,0 +1,279 @@
+#!/usr/bin/env python3
+"""FedBite card news renderer.
+
+Usage: python render.py content.json
+Reads slide definitions from content.json and writes 1080x1350 JPGs to out/.
+
+Style: light striped background, white "hanging note" card, lime highlight,
+Pretendard type. Layout types: cover, highlight, photo, chart, list.
+"""
+import json
+import math
+import os
+import sys
+
+from PIL import Image, ImageDraw, ImageFont
+
+W, H = 1080, 1350
+INK = "#333333"
+GRAY = "#777777"
+LIGHT = "#AAAAAA"
+LIME = "#DFFFBB"
+BG = "#F6F6F6"
+STRIPE = "#EAEAEA"
+CARD = (108, 107, 972, 1243)  # left, top, right, bottom
+FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
+BRAND = "@FedBite"
+
+
+def font(weight, size):
+    return ImageFont.truetype(os.path.join(FONT_DIR, f"PretendardStd-{weight}.otf"), size)
+
+
+def text_w(draw, s, f):
+    return draw.textlength(s, font=f)
+
+
+def wrap(draw, text, f, max_w):
+    lines = []
+    for para in text.split("\n"):
+        words, cur = para.split(" "), ""
+        for w in words:
+            trial = (cur + " " + w).strip()
+            if text_w(draw, trial, f) <= max_w or not cur:
+                cur = trial
+            else:
+                lines.append(cur)
+                cur = w
+        lines.append(cur)
+    return lines
+
+
+def draw_lines(draw, lines, f, cx, y, fill, spacing=1.25, anchor="center"):
+    """Draw lines; returns y after the block. anchor center|left (cx is x)."""
+    lh = int(f.size * spacing)
+    for ln in lines:
+        x = cx - text_w(draw, ln, f) / 2 if anchor == "center" else cx
+        draw.text((x, y), ln, font=f, fill=fill)
+        y += lh
+    return y
+
+
+def background():
+    img = Image.new("RGB", (W, H), BG)
+    d = ImageDraw.Draw(img)
+    for x in range(0, W, 16):
+        d.rectangle([x, 0, x + 2, H], fill=STRIPE)
+    return img
+
+
+def dashed_circle(draw, c, r, color, width=3, dashes=14):
+    for i in range(dashes):
+        a0 = 360 / dashes * i
+        draw.arc([c[0] - r, c[1] - r, c[0] + r, c[1] + r], a0, a0 + 360 / dashes * 0.55, fill=color, width=width)
+
+
+def paperclip(img, x, y, scale=1.0):
+    layer = Image.new("RGBA", (120, 200), (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    col = (110, 110, 110, 255)
+    d.rounded_rectangle([34, 20, 86, 170], radius=26, outline=col, width=6)
+    d.rounded_rectangle([48, 50, 72, 150], radius=12, outline=col, width=6)
+    d.rectangle([44, 20, 76, 60], fill=(0, 0, 0, 0))
+    d.line([60, 28, 60, 130], fill=col, width=6)
+    layer = layer.rotate(18, expand=True, resample=Image.BICUBIC)
+    if scale != 1.0:
+        layer = layer.resize((int(layer.width * scale), int(layer.height * scale)), Image.LANCZOS)
+    img.paste(layer, (x, y), layer)
+
+
+def base_card(img, label="FEDBITE"):
+    d = ImageDraw.Draw(img)
+    l, t, r, b = CARD
+    # back sheet
+    d.rounded_rectangle([l + 26, t + 22, r + 18, b + 22], radius=10, fill="#EDEDED", outline=INK, width=3)
+    # card
+    d.rounded_rectangle([l, t, r, b], radius=10, fill="white", outline=INK, width=3)
+    # string + ring
+    d.rectangle([534, 0, 546, 168], fill=INK)
+    d.ellipse([518, 152, 562, 196], fill="white")
+    dashed_circle(d, (540, 174), 22, INK)
+    d.ellipse([532, 166, 548, 182], fill=INK)
+    f = font("Medium", 28)
+    x = 165
+    for ch in label:  # letter-spaced
+        d.text((x, 158), ch, font=f, fill=INK)
+        x += text_w(d, ch, f) + 3
+    # brand footer
+    ff = font("Medium", 24)
+    d.text((540 - text_w(d, BRAND, ff) / 2, 1190), BRAND, font=ff, fill=LIGHT)
+
+
+def title_bar(img, title):
+    d = ImageDraw.Draw(img)
+    d.line([161, 227, 919, 227], fill=INK, width=2)
+    d.line([161, 353, 919, 353], fill=INK, width=2)
+    size = 58
+    while size > 30:
+        f = font("Bold", size)
+        if text_w(d, title, f) <= 740:
+            break
+        size -= 2
+    d.text((540 - text_w(d, title, f) / 2, 290 - size * 0.62), title, font=f, fill=INK)
+
+
+def cover_arrow(img):
+    d = ImageDraw.Draw(img)
+    for dx in (0, 22):
+        x = 872 + dx
+        d.line([x, 1118, x + 18, 1138], fill="#B5B5B5", width=8)
+        d.line([x + 18, 1138, x, 1158], fill="#B5B5B5", width=8)
+
+
+def fit_cover(photo, w, h):
+    ratio = max(w / photo.width, h / photo.height)
+    p = photo.resize((int(photo.width * ratio) + 1, int(photo.height * ratio) + 1), Image.LANCZOS)
+    x, y = (p.width - w) // 2, (p.height - h) // 2
+    return p.crop((x, y, x + w, y + h))
+
+
+# ---------- layouts ----------
+def slide_cover(s):
+    img = background()
+    base_card(img)
+    d = ImageDraw.Draw(img)
+    lines = s["headline"]  # list of lines
+    hi = s.get("highlight_line", len(lines) - 1)
+    f = font("ExtraBold", s.get("size", 104))
+    lh = int(f.size * 1.3)
+    y0 = 380
+    for i, ln in enumerate(lines):
+        w = text_w(d, ln, f)
+        if i == hi:
+            d.rectangle([540 - w / 2 - 28, y0 + i * lh + 4, 540 + w / 2 + 28, y0 + i * lh + lh - 8], fill=LIME)
+        d.text((540 - w / 2, y0 + i * lh), ln, font=f, fill=INK)
+    sub = font("Regular", 36)
+    draw_lines(d, s["subtitle"].split("\n"), sub, 540, y0 + len(lines) * lh + 70, GRAY, 1.4)
+    cover_arrow(img)
+    return img
+
+
+def slide_highlight(s):
+    img = background()
+    base_card(img)
+    title_bar(img, s["title"])
+    d = ImageDraw.Draw(img)
+    d.rectangle([161, 384, 919, 800], fill=LIME)
+    paperclip(img, 140, 318)
+    f = font("ExtraBold", s.get("size", 54))
+    lines = wrap(d, s["big"], f, 640)
+    block = len(lines) * int(f.size * 1.3)
+    draw_lines(d, lines, f, 540, 384 + (416 - block) // 2 + 10, INK, 1.3)
+    body = font("Regular", 34)
+    draw_lines(d, wrap(d, s["body"], body, 700), body, 540, 850, GRAY, 1.5)
+    if s.get("source"):
+        sf = font("Regular", 22)
+        draw_lines(d, [s["source"]], sf, 540, 1150, LIGHT)
+    return img
+
+
+def slide_photo(s):
+    img = background()
+    base_card(img)
+    title_bar(img, s["title"])
+    d = ImageDraw.Draw(img)
+    ph = Image.open(s["photo"]).convert("RGB")
+    ph = fit_cover(ph, 758, 470)
+    img.paste(ph, (161, 384))
+    body = font("Regular", 34)
+    draw_lines(d, wrap(d, s["body"], body, 700), body, 540, 900, GRAY, 1.5)
+    if s.get("credit"):
+        cf = font("Regular", 20)
+        draw_lines(d, [s["credit"]], cf, 540, 1150, LIGHT)
+    return img
+
+
+def slide_chart(s):
+    img = background()
+    base_card(img)
+    title_bar(img, s["title"])
+    d = ImageDraw.Draw(img)
+    sf = font("Medium", 32)
+    draw_lines(d, [s["subtitle"]], sf, 540, 392, INK)
+    bars = s["bars"]  # [{label,value,forecast?}]
+    vmax = s.get("max", max(b["value"] for b in bars) * 1.15)
+    base_y, top_y = 1010, 540
+    n = len(bars)
+    area_l, area_r = 190, 890
+    slot = (area_r - area_l) / n
+    bw = int(slot * 0.62)
+    d.line([161, base_y, 919, base_y], fill=INK, width=3)
+    vf, lf = font("ExtraBold", 44), font("Medium", 26)
+    for i, b in enumerate(bars):
+        cx = area_l + slot * (i + 0.5)
+        h = (base_y - top_y) * b["value"] / vmax
+        box = [cx - bw / 2, base_y - h, cx + bw / 2, base_y]
+        if b.get("forecast"):
+            d.rectangle(box, fill=LIME, outline=INK, width=3)
+        else:
+            d.rectangle(box, fill=INK)
+        txt = b.get("text", f"{b['value']}%")
+        d.text((cx - text_w(d, txt, vf) / 2, base_y - h - 62), txt, font=vf, fill=INK)
+        d.text((cx - text_w(d, b["label"], lf) / 2, base_y + 16), b["label"], font=lf, fill=GRAY)
+    body = font("Regular", 30)
+    draw_lines(d, wrap(d, s["body"], body, 720), body, 540, 1075, GRAY, 1.45)
+    if s.get("source"):
+        sf2 = font("Regular", 21)
+        draw_lines(d, [s["source"]], sf2, 540, 1150, LIGHT)
+    return img
+
+
+def slide_list(s):
+    img = background()
+    base_card(img)
+    title_bar(img, s["title"])
+    d = ImageDraw.Draw(img)
+    d.rectangle([161, 384, 919, 1030], fill=LIME)
+    paperclip(img, 140, 318)
+    f = font("Medium", 40)
+    y = 500
+    for item in s["items"]:
+        lines = wrap(d, item, f, 560)
+        d.text((235, y), "–", font=font("Bold", 38), fill=INK)
+        yy = draw_lines(d, lines, f, 300, y, INK, 1.4, anchor="left")
+        y = yy + 34
+    if s.get("footer"):
+        ff = font("Bold", 34)
+        draw_lines(d, [s["footer"]], ff, 540, 1085, INK)
+    if s.get("disclaimer"):
+        df = font("Regular", 21)
+        draw_lines(d, [s["disclaimer"]], df, 540, 1150, LIGHT)
+    return img
+
+
+LAYOUTS = {
+    "cover": slide_cover,
+    "highlight": slide_highlight,
+    "photo": slide_photo,
+    "chart": slide_chart,
+    "list": slide_list,
+}
+
+
+def main():
+    spec = json.load(open(sys.argv[1]))
+    out = spec.get("out", "out")
+    os.makedirs(out, exist_ok=True)
+    base = os.path.dirname(os.path.abspath(sys.argv[1]))
+    for i, s in enumerate(spec["slides"], 1):
+        for k in ("photo",):
+            if k in s and not os.path.isabs(s[k]):
+                s[k] = os.path.join(base, s[k])
+        img = LAYOUTS[s["type"]](s)
+        path = os.path.join(out, f"slide{i}.jpg")
+        img.save(path, quality=93)
+        print(path)
+
+
+if __name__ == "__main__":
+    main()

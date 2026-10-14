@@ -1,0 +1,50 @@
+{
+  "out": "out",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": ["The Fed Hiked.", "Now Inflation", "Decides", "What's Next."],
+      "highlight_line": 3,
+      "size": 98,
+      "subtitle": "September CPI lands today.\nFed funds rate now 3.75% to 4.00%."
+    },
+    {
+      "type": "highlight",
+      "title": "What Just Happened?",
+      "big": "The Fed raised rates by 0.25 points to 3.75% to 4.00%.",
+      "body": "Sep 16, 2026. A unanimous 12-0 vote and the first hike since July 2023. Most officials expect another by year-end.",
+      "source": "Source: Federal Reserve, Sep 16, 2026"
+    },
+    {
+      "type": "chart",
+      "title": "Let's Look at the Numbers",
+      "subtitle": "US CPI inflation (% year over year)",
+      "bars": [
+        {"label": "Jul 2026", "value": 3.4},
+        {"label": "Aug 2026", "value": 3.4},
+        {"label": "Sep 2026*", "value": 3.6, "forecast": true}
+      ],
+      "max": 4.2,
+      "body": "Gasoline drove over a third of August's monthly gain.",
+      "source": "Source: BLS (Jul, Aug). *Sep = economist consensus, per CNBC."
+    },
+    {
+      "type": "photo",
+      "title": "Why Should You Care?",
+      "photo": "photos/gas-pump.jpg",
+      "body": "Higher gas prices push CPI up, which puts more pressure on the Fed to hike again. Higher rates also make loans and mortgages more expensive.",
+      "credit": "Photo: Unsplash"
+    },
+    {
+      "type": "list",
+      "title": "The Bottom Line",
+      "items": [
+        "Inflation now steers the Fed's next move.",
+        "Gas prices are the short-term swing factor.",
+        "Save this post and follow @FedBite."
+      ],
+      "footer": "Bite-sized finance, big-picture insights.",
+      "disclaimer": "For informational purposes only. Not investment advice."
+    }
+  ]
+}
