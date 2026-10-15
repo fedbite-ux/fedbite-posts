@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-15/slides","slides":[
+{"type":"cover","headline":["Inflation","jumped to","3.7%","in September"],"highlight_line":2,"size":98,"subtitle":"Energy prices drove\nmuch of the increase"},
+{"type":"highlight","title":"What happened","big":"CPI rose 0.6%\nin September","body":"Prices are up 3.7% from a year ago. Energy jumped 5.2% in one month and is up 20.4% over the year.","source":"Source: BLS CPI release, Oct 14, 2026"},
+{"type":"chart","title":"The numbers","subtitle":"CPI, % change from a year earlier","bars":[{"label":"Aug CPI","value":3.4},{"label":"Sep CPI","value":3.7},{"label":"Sep core","value":2.6}],"max":4.5,"body":"Core CPI excludes food and energy.","source":"Source: BLS, Oct 14, 2026"},
+{"type":"photo","title":"Why it matters","photo":"photo.jpg","body":"Higher fuel costs touch almost every budget, and markets now weigh whether the Fed may raise rates.","credit":"Photo: Unsplash"},
+{"type":"list","title":"Bottom line","items":["Headline CPI: 3.7% year over year","Core CPI: 2.6%, much lower","Energy is the main driver"],"footer":"Save this post and follow @FedBite.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
