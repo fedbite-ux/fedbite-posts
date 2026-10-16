@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-16/slides","slides":[
+{"type":"cover","headline":["Wholesale","prices","surged 1.3%","in September"],"highlight_line":2,"size":92,"subtitle":"Producer prices rose 6.3%\nfrom a year ago"},
+{"type":"highlight","title":"What happened","big":"PPI up 1.3%\nin one month","body":"The Producer Price Index for final demand rose 1.3% in September and 6.3% over 12 months. Energy led the jump.","source":"Source: BLS PPI release, Oct 15, 2026"},
+{"type":"chart","title":"The numbers","subtitle":"PPI, September, % change from August","bars":[{"label":"Final","value":1.3},{"label":"Goods","value":2.6},{"label":"Energy","value":10.8},{"label":"Services","value":0.8}],"max":12.5,"body":"Core PPI rose 0.5% in the month.","source":"Source: BLS, Oct 15, 2026"},
+{"type":"highlight","title":"Why it matters","big":"Costs may\nreach shelves","body":"Producer prices track what businesses pay. Higher input costs can feed into consumer prices and keep the Fed cautious.","source":"Source: BLS"},
+{"type":"list","title":"Bottom line","items":["PPI: +1.3% in September","Up 6.3% from a year ago","Energy rose 10.8% in a month"],"footer":"Save this post and follow @FedBite.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
