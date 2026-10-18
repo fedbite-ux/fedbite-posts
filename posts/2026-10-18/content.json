@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-18/slides","slides":[
+{"type":"cover","headline":["The 10-year","yield fell","0.15 points","in a week"],"highlight_line":2,"size":86,"subtitle":"From 5.24% to 5.09%\nafter a tech selloff"},
+{"type":"highlight","title":"What happened","big":"10-year yield\nfell to 5.09%","body":"The Treasury par yield was 5.24% on Oct 9 and 5.09% on Oct 16. Most of the drop came on Oct 15.","source":"Source: U.S. Treasury daily par yield curve"},
+{"type":"chart","title":"The numbers","subtitle":"10-year Treasury yield, %","bars":[{"label":"Oct 9","value":5.24},{"label":"Oct 13","value":5.21},{"label":"Oct 14","value":5.19},{"label":"Oct 15","value":5.10,"text":"5.10%"},{"label":"Oct 16","value":5.09}],"max":5.8,"body":"A fall in yield means bond prices rose.","source":"Source: U.S. Treasury, Oct 9 to Oct 16, 2026"},
+{"type":"highlight","title":"Why it matters","big":"Borrowing costs\nstay high","size":50,"body":"Mortgages and business loans often follow Treasury yields. At 5.09%, the 10-year is still well above 5%.","source":"Reports linked the move to a tech selloff"},
+{"type":"list","title":"Bottom line","items":["10-year yield: 5.09% on Oct 16","Down 15 basis points in a week","Still above 5%"],"footer":"Save this post and follow @FedBite.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
