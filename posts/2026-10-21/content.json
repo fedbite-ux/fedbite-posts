@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-21/slides","slides":[
+{"type":"cover","headline":["Pending home","sales hit","a record low","in September"],"highlight_line":2,"size":88,"subtitle":"Mortgage rates near 7.4%\nare squeezing buyers"},
+{"type":"highlight","title":"What happened","big":"Pending sales\nfell 7.3%\nin September","body":"The NAR index dropped to 66.0, its lowest since tracking began in 2001. It is down 11.3% from a year ago.","source":"Source: National Association of Realtors, Oct. 20, 2026","size":52},
+{"type":"chart","title":"The numbers","subtitle":"30-year mortgage rate (Freddie Mac)","bars":[{"label":"Oct 2025","value":6.27},{"label":"Late Aug","value":6.66},{"label":"Early Oct","value":7.28},{"label":"Oct 15","value":7.4,"text":"7.40%"}],"max":8.5,"body":"Highest since November 2023.","source":"Source: Freddie Mac. Actual figures, not forecasts."},
+{"type":"photo","title":"Why it matters","photo":"photo.jpg","body":"Higher borrowing costs keep buyers on the sidelines. Contracts signed now point to fewer closings in coming months.","credit":"Photo: Unsplash"},
+{"type":"list","title":"The bottom line","items":["Pending sales fell 7.3% to a record low of 66.0","Economists had expected a 0.5% decline","Mortgage rates rose from 6.66% to 7.40%"],"footer":"Save this post and follow @FedBite.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
