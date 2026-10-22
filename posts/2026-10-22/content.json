@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-22/slides","slides":[
+{"type":"cover","headline":["What Is the","Yield Curve,","and Why Does","It Get Watched?"],"highlight_line":1,"size":98,"subtitle":"A 60-second explainer on a famous\nbond market chart."},
+{"type":"highlight","title":"In One Sentence","big":"The yield curve plots what the US government pays to borrow for different lengths of time.","body":"Short-term to long-term Treasuries, from 1 month to 30 years, lined up on one chart.","source":"Source: US Treasury"},
+{"type":"list","title":"How It Works","items":["Normal: longer loans pay higher yields.","Flat: short and long yields are close.","Inverted: short-term yields beat long-term."],"footer":"Yields reflect rate expectations and risk.","disclaimer":"For informational purposes only. Not investment advice."},
+{"type":"highlight","title":"Why It Matters to You","big":"It reflects what markets expect for rates, growth and inflation.","body":"Long-term yields influence mortgage rates. An inverted curve has often come before past recessions, but it is not a guarantee.","source":"Source: Federal Reserve research, US Treasury"},
+{"type":"list","title":"Remember This","items":["It compares Treasury yields by maturity.","Inverted means short beats long.","Save this post and follow @FedBite."],"footer":"Bite-sized finance, big-picture insights.","disclaimer":"For informational purposes only. Not investment advice."}
+]}

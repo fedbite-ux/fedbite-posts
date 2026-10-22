@@ -1,1 +1,0 @@
-SKIPPED 2026-10-22: No new, verifiable high-impact US economy story in the last 24h. Searches returned no Oct 21-22 coverage of major releases/earnings. Treasury yields (Treasury.gov par curve: 10-yr 5.13% on 10/21) were already covered Oct 18; pending home sales covered Oct 21; existing home sales (Oct 13) are stale. Not posting rather than risking unverified numbers.
