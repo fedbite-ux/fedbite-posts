@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-23/slides","slides":[
+{"type":"cover","headline":["CPI vs PCE:","Which Inflation","Number Does","the Fed Use?"],"highlight_line":1,"size":98,"subtitle":"Two price gauges, one clear winner\nfor the Fed."},
+{"type":"highlight","title":"In One Sentence","big":"CPI is the inflation number in the headlines. PCE is the one the Fed targets.","body":"The Fed's 2% goal is defined using PCE prices, from the Bureau of Economic Analysis.","source":"Source: Federal Reserve, BEA, BLS"},
+{"type":"list","title":"How They Differ","items":["CPI: what households pay (BLS).","PCE: broader spending, incl. health care (BEA).","PCE adjusts as shoppers switch products."],"footer":"Both track prices, with different recipes.","disclaimer":"For informational purposes only. Not investment advice."},
+{"type":"photo","title":"Why It Matters to You","photo":"photo.jpg","body":"CPI sets Social Security COLAs and shapes everyday price talk. PCE guides Fed rate decisions, which reach loans and savings.","credit":"Photo: Unsplash"},
+{"type":"list","title":"Remember This","items":["CPI = headline, PCE = Fed's target.","The two often differ by a bit.","Save this post and follow @FedBite."],"footer":"Bite-sized finance, big-picture insights.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
