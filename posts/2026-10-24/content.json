@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-24/slides","slides":[
+{"type":"cover","headline":["Why Do Bond","Prices Fall","When Yields","Rise?"],"highlight_line":1,"size":98,"subtitle":"A see-saw worth understanding."},
+{"type":"highlight","title":"In One Sentence","big":"Bond prices and yields move in opposite directions.","body":"A bond pays a fixed interest amount, so a lower price means a higher yield for the new buyer.","source":"Source: Treasury, SEC Investor.gov"},
+{"type":"list","title":"How It Works","items":["Example: you hold a bond paying 3%.","New bonds now pay 4%, so yours looks weaker.","Buyers pay less for yours, so its price drops."],"footer":"Hypothetical example, not real market data.","disclaimer":"For informational purposes only. Not investment advice."},
+{"type":"photo","title":"Why It Matters to You","photo":"photo.jpg","body":"Yields shape mortgage rates, savings rates and the value of bond funds in retirement accounts.","credit":"Photo: Unsplash"},
+{"type":"list","title":"Remember This","items":["Yields up means existing bond prices down.","Yields down means existing bond prices up.","Save this post and follow @FedBite."],"footer":"Bite-sized finance, big-picture insights.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
