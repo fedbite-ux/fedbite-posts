@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-25/slides","slides":[
+{"type":"cover","headline":["What Is Core","Inflation, and","Why Does the","Fed Watch It?"],"highlight_line":0,"size":98,"subtitle":"Prices minus the wild swings."},
+{"type":"highlight","title":"In One Sentence","big":"Core inflation measures price changes excluding food and energy.","body":"Food and energy prices jump around a lot, so removing them can reveal the underlying trend.","source":"Source: U.S. Bureau of Labor Statistics"},
+{"type":"list","title":"How It Works","items":["Start with all the prices in the CPI basket.","Take out food and energy items.","Track what is left month to month."],"footer":"Headline CPI keeps food and energy in.","disclaimer":"For informational purposes only. Not investment advice."},
+{"type":"photo","title":"Why It Matters to You","photo":"photo.jpg","body":"Core is not a cost-of-living gauge. Groceries and gas are real costs, but core helps show where prices may head.","credit":"Photo: Unsplash"},
+{"type":"list","title":"Remember This","items":["Core leaves out food and energy.","Headline shows all prices, core shows the trend.","Save this post and follow @FedBite."],"footer":"Bite-sized finance, big-picture insights.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
