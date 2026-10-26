@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-26/slides","slides":[
+{"type":"cover","headline":["What Is a","Treasury Yield,","and Why Does","Everyone Cite It?"],"highlight_line":1,"size":98,"subtitle":"The most-quoted number in finance,\nexplained in 60 seconds."},
+{"type":"highlight","title":"In One Sentence","big":"A Treasury yield is the annual return you earn for lending money to the U.S. government.","body":"It is quoted as a percentage, such as for 2-year or 10-year Treasuries.","source":"Source: U.S. Department of the Treasury"},
+{"type":"list","title":"How It Works","items":["The Treasury sells bonds to raise money.","Investors bid, and the price settles.","Lower price means a higher yield."],"footer":"Yield moves as bond prices change.","disclaimer":"For informational purposes only. Not investment advice."},
+{"type":"photo","title":"Why It Matters to You","photo":"photo.jpg","body":"Treasury yields are a benchmark. Mortgage rates, car loans and savings rates often move in the same direction.","credit":"Photo: Unsplash"},
+{"type":"list","title":"Remember This","items":["Yield is the return on lending to the U.S.","Price and yield move in opposite directions.","Save this post and follow @FedBite."],"footer":"Bite-sized finance, big-picture insights.","disclaimer":"For informational purposes only. Not investment advice."}
+]}
