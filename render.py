@@ -24,6 +24,7 @@ STRIPE = "#EAEAEA"
 CARD = (108, 107, 972, 1243)  # left, top, right, bottom
 FONT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts")
 BRAND = "@FedBite"
+BRAND_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "brand")
 
 
 def font(weight, size):
@@ -137,6 +138,31 @@ def fit_cover(photo, w, h):
     return p.crop((x, y, x + w, y + h))
 
 
+def _logo_cropped():
+    """Official logo cropped to its content box (kept on the white card, never recolored)."""
+    from PIL import ImageChops
+    im = Image.open(os.path.join(BRAND_DIR, "fedbite_official_logo.png")).convert("RGB")
+    bbox = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255))).point(lambda v: 255 if v > 24 else 0).getbbox()
+    pad = 6
+    return im.crop((max(bbox[0] - pad, 0), max(bbox[1] - pad, 0), min(bbox[2] + pad, im.width), min(bbox[3] + pad, im.height)))
+
+
+def add_brand(img, kind):
+    """kind: 'cover' (large Bitey + official logo row) or 'last' (same, a bit smaller)."""
+    if not os.path.isdir(BRAND_DIR):
+        return
+    bitey = Image.open(os.path.join(BRAND_DIR, "bitey_official_transparent.png")).convert("RGBA")
+    bitey = bitey.crop(bitey.getchannel("A").getbbox())
+    logo = _logo_cropped()
+    bw, lw, bottom = (215, 340, 1172) if kind == "cover" else (170, 290, 1172)
+    bitey = bitey.resize((bw, int(bitey.height * bw / bitey.width)), Image.LANCZOS)
+    logo = logo.resize((lw, int(logo.height * lw / logo.width)), Image.LANCZOS)
+    gap = 26
+    x0 = 540 - (bw + gap + lw) // 2
+    img.paste(bitey, (x0, bottom - bitey.height), bitey)
+    img.paste(logo, (x0 + bw + gap, bottom - bitey.height // 2 - logo.height // 2 - 6), None)
+
+
 # ---------- layouts ----------
 def slide_cover(s):
     img = background()
@@ -146,7 +172,7 @@ def slide_cover(s):
     hi = s.get("highlight_line", len(lines) - 1)
     f = font("ExtraBold", s.get("size", 104))
     lh = int(f.size * 1.3)
-    y0 = 380
+    y0 = 330 if s.get("brand") else 380
     for i, ln in enumerate(lines):
         w = text_w(d, ln, f)
         if i == hi:
@@ -155,6 +181,8 @@ def slide_cover(s):
     sub = font("Regular", 36)
     draw_lines(d, s["subtitle"].split("\n"), sub, 540, y0 + len(lines) * lh + 70, GRAY, 1.4)
     cover_arrow(img)
+    if s.get("brand"):
+        add_brand(img, "cover")
     return img
 
 
@@ -171,9 +199,6 @@ def slide_highlight(s):
     draw_lines(d, lines, f, 540, 384 + (416 - block) // 2 + 10, INK, 1.3)
     body = font("Regular", 34)
     draw_lines(d, wrap(d, s["body"], body, 700), body, 540, 850, GRAY, 1.5)
-    if s.get("source"):
-        sf = font("Regular", 22)
-        draw_lines(d, [s["source"]], sf, 540, 1150, LIGHT)
     return img
 
 
@@ -187,9 +212,6 @@ def slide_photo(s):
     img.paste(ph, (161, 384))
     body = font("Regular", 34)
     draw_lines(d, wrap(d, s["body"], body, 700), body, 540, 900, GRAY, 1.5)
-    if s.get("credit"):
-        cf = font("Regular", 20)
-        draw_lines(d, [s["credit"]], cf, 540, 1150, LIGHT)
     return img
 
 
@@ -222,9 +244,6 @@ def slide_chart(s):
         d.text((cx - text_w(d, b["label"], lf) / 2, base_y + 16), b["label"], font=lf, fill=GRAY)
     body = font("Regular", 30)
     draw_lines(d, wrap(d, s["body"], body, 720), body, 540, 1075, GRAY, 1.45)
-    if s.get("source"):
-        sf2 = font("Regular", 21)
-        draw_lines(d, [s["source"]], sf2, 540, 1150, LIGHT)
     return img
 
 
@@ -233,7 +252,8 @@ def slide_list(s):
     base_card(img)
     title_bar(img, s["title"])
     d = ImageDraw.Draw(img)
-    d.rectangle([161, 384, 919, 1030], fill=LIME)
+    box_bottom = 985 if s.get("brand") else 1030
+    d.rectangle([161, 384, 919, box_bottom], fill=LIME)
     paperclip(img, 140, 318)
     f = font("Medium", 40)
     y = 500
@@ -242,12 +262,11 @@ def slide_list(s):
         d.text((235, y), "–", font=font("Bold", 38), fill=INK)
         yy = draw_lines(d, lines, f, 300, y, INK, 1.4, anchor="left")
         y = yy + 34
-    if s.get("footer"):
+    if s.get("brand"):
+        add_brand(img, "last")
+    elif s.get("footer"):
         ff = font("Bold", 34)
         draw_lines(d, [s["footer"]], ff, 540, 1085, INK)
-    if s.get("disclaimer"):
-        df = font("Regular", 21)
-        draw_lines(d, [s["disclaimer"]], df, 540, 1150, LIGHT)
     return img
 
 
