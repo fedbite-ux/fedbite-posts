@@ -1,0 +1,6 @@
+{"out":"posts/2026-10-30/slides","slides":[
+{"type":"cover","headline":["Strong Growth,","Hotter Prices,","and a Tech","Selloff."],"highlight_line":2,"size":98,"subtitle":"FedBite Week in Review","brand":true},
+{"type":"highlight","title":"Story 1: Growth Beat Forecasts","big":"GDP grew 3.4% in Q3.","body":"The first estimate for July to September beat forecasts of about 3.2%. On Oct 28, the Fed held rates at 3.75% to 4.00%, with two dissents favoring a hike."},
+{"type":"chart","title":"Story 2: Inflation Moved Up","subtitle":"PCE price index (% year over year)","bars":[{"label":"Aug 2026","value":3.4},{"label":"Sep 2026","value":3.6},{"label":"Core Sep","value":3.1}],"max":4.4,"body":"Number of the week: 3.6%. Prices rose 0.5% from August."},
+{"type":"photo","title":"Story 3: AI Spending Doubts","photo":"photo.jpg","body":"On Oct 29, Alphabet fell 12.6%, its worst day ever, as investors questioned AI spending and cash flow. The Nasdaq dropped about 1.4%."},
+{"type":"list","title":"Save This: Week Ahead","items":["Nov 3: US midterm elections.","Nov 6: October jobs report, 8:30 a.m. ET.","Nov 25: October PCE inflation data."],"brand":true}]}
