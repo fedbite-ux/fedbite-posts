@@ -1,0 +1,7 @@
+{"out":"posts/2026-10-31/slides","slides":[
+{"type":"cover","headline":["Tuesday Vote:","Why Markets","Often Welcome","Gridlock."],"highlight_line":2,"size":98,"subtitle":"Midterms and Markets","brand":true},
+{"type":"highlight","title":"What Is at Stake Tuesday","big":"Nov 3 midterms","body":"All 435 House seats and about a third of the Senate are on the ballot. Polls point to a change in House control. The Senate is less certain."},
+{"type":"chart","title":"What Investors Expect","subtitle":"% expecting a Democratic win (forecasts)","bars":[{"label":"House (survey)","value":96,"forecast":true},{"label":"Senate (survey)","value":58,"forecast":true},{"label":"Senate (Wolfe)","value":49,"forecast":true}],"max":110,"body":"Wolfe Research surveyed 138 investors. These are forecasts, not results."},
+{"type":"highlight","title":"Why It Matters","big":"Split power, fewer big changes","body":"Analysts say divided government tends to limit major policy shifts, which markets usually welcome. Watch AI rules, tariffs, healthcare spending and the Fed."},
+{"type":"list","title":"What to Watch Next","items":["Nov 2: Apple reports earnings.","Nov 3: Election Day. House and Senate control.","Nov 6: October jobs report, 8:30 a.m. ET."],"brand":true}
+]}
