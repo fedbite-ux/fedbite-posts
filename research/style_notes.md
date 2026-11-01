@@ -11,3 +11,9 @@
 - Attributed numbers (survey share, analyst estimate) read as credible; label them clearly as forecasts.
 - Neutral, consequence-first tone: focus on gridlock, deficits, AI rules and the Fed, not on who wins.
 (Note: trend study used search summaries and two fetched articles; engagement figures not visible. Metrics show 0 likes/comments on recent posts, so no hook family leads.)
+
+## 2026-11-01
+- Election-night market reaction stories lead with a concrete move (index or bank decline) tied to an unresolved event.
+- "Who governs next" uncertainty framed as a market consequence, with provisional counts clearly labeled.
+- Calm, neutral tone; attribute causes to named analysts, never to a side.
+(Note: trend study used search summaries only; no engagement figures visible. Metrics show no clear leading hook family.)

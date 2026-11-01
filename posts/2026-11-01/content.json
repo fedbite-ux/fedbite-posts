@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-01/slides","slides":[
+{"type":"cover","headline":["Tel Aviv Banks","Fell 4.9% as","Israel's Vote","Stayed Unclear"],"highlight_line":1,"size":98,"subtitle":"Israel Election and Markets","brand":true},
+{"type":"highlight","title":"What Happened","big":"No clear majority","body":"With about 85% of votes counted, Netanyahu's bloc led 53 to 48 seats over Eisenkot's bloc. A majority needs 61 of 120. Counts are provisional."},
+{"type":"chart","title":"Tel Aviv Stocks, Oct 28","subtitle":"% decline at the close","bars":[{"label":"TA-35","value":1.8},{"label":"TA-125","value":2.5},{"label":"TA-90","value":4.5},{"label":"Banks","value":4.9}],"max":6,"body":"The shekel also fell 1.6% to 3.128 per US dollar."},
+{"type":"highlight","title":"Why It Matters","big":"Uncertainty gets priced fast","body":"Analysts cited coalition talks, living costs and fears of renewed war with Iran. A deadlock could mean weeks of talks, or another vote."},
+{"type":"list","title":"What to Watch Next","items":["Nov 4: Israel's official election results expected.","Nov 4: US Treasury quarterly refunding announcement.","Nov 6: US October jobs report, 8:30 a.m. ET."],"brand":true}
+]}
