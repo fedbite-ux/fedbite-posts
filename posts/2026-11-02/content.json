@@ -1,0 +1,46 @@
+{
+"out": "posts/2026-11-02/slides",
+"slides": [
+{
+"type": "cover",
+"headline": [
+"Midterms Vote.",
+"Jobs Report.",
+"5 Things That",
+"Move Markets"
+],
+"highlight_line": 1,
+"size": 98,
+"subtitle": "FedBite Week Ahead",
+"brand": true
+},
+{
+"type": "highlight",
+"title": "The Week at a Glance",
+"big": "Vote, Treasury, Jobs",
+"body": "US midterm elections on Tue Nov 3. Treasury's quarterly refunding plan on Wed Nov 4. The October jobs report on Fri Nov 6. Apple, AMD, Qualcomm and Palantir are due to report earnings."
+},
+{
+"type": "highlight",
+"title": "The Earnings Backdrop",
+"big": "+31% pace",
+"body": "With about half of S&P 500 companies reported, Q3 earnings were on pace to rise 31% from a year ago (LSEG data via Reuters, Oct 30). Alphabet still fell over 12% on Oct 29."
+},
+{
+"type": "highlight",
+"title": "Why It Matters",
+"big": "Policy and rates",
+"body": "The vote shapes expectations for taxes, spending and regulation. Jobs data feeds the Fed's next move after its Oct 28 hold. Treasury's plan can affect bond yields."
+},
+{
+"type": "list",
+"title": "Save This: Week Checklist",
+"items": [
+"Tue Nov 3: Midterms; JOLTS, 10 a.m. ET.",
+"Wed Nov 4: Treasury refunding; trade data.",
+"Fri Nov 6: October jobs, 8:30 a.m. ET."
+],
+"brand": true
+}
+]
+}

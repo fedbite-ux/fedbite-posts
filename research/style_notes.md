@@ -17,3 +17,9 @@
 - "Who governs next" uncertainty framed as a market consequence, with provisional counts clearly labeled.
 - Calm, neutral tone; attribute causes to named analysts, never to a side.
 (Note: trend study used search summaries only; no engagement figures visible. Metrics show no clear leading hook family.)
+
+## 2026-11-02
+- CNBC front page led with a "busy week ahead" framing (earnings, jobs data, midterms): calendar-style headlines that bundle several dated catalysts.
+- Reuters week-ahead framed the vote through market consequences (AI scrutiny, regulation), not through who wins.
+- Calm, scannable tone with named events and times; label forecasts and attribute data (LSEG via Reuters).
+(Note: based on CNBC front page fetch and search summaries; no engagement figures visible.)
