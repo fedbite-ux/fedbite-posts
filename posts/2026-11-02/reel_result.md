@@ -1,0 +1,4 @@
+FAILED: ('Video is still processing. In Progress: Media is still being processed.', 180) (Zapier publish_video failed twice with this exact error)
+Video URL: https://cdn.jsdelivr.net/gh/fedbite-ux/fedbite-posts@c4c7dab99314cff0a91bc7f0fcab169bb47eb6c7/posts/2026-11-02/reel.mp4
+Note: video built OK (H.264 1080x1920, 12.5s) and URL returns 200 video/mp4. Same error as 2026-10-29, 10-30 and 11-01. Carousel hashtags were not stored in today's files, so 5 relevant hashtags were chosen.
+Caption: Midterms Vote. Jobs Report. 5 Things That Move Markets. The US midterms (Nov 3), Treasury refunding (Nov 4) and the October jobs report (Nov 6) land in one week. Full breakdown with sources in our latest carousel on the feed. Follow @FedBite for bite-sized financial insights. For informational purposes only. Not investment advice. #FedBite #Markets #JobsReport #Midterms #StockMarket
