@@ -1,0 +1,6 @@
+{"out":"posts/2026-11-03/slides","slides":[
+{"type":"cover","headline":["Oil Fell 7%","on Iran Talks.","Stocks Still","Slipped."],"highlight_line":0,"size":98,"subtitle":"Markets Before Election Day","brand":true},
+{"type":"highlight","title":"What Happened on Nov 2","big":"Brent fell 7%+ midday.","body":"Iran signaled openness to peace talks, and Brent hit a two-week low. No deal is confirmed. The S&P 500 energy sector closed down about 4%."},
+{"type":"chart","title":"Monday's Market Close","subtitle":"Moves on Nov 2 (bar = size of move)","bars":[{"label":"Energy","value":4.0,"text":"-4.0%"},{"label":"Nasdaq","value":1.1,"text":"-1.1%"},{"label":"S&P 500","value":0.5,"text":"-0.5%"},{"label":"Dow","value":0.4,"text":"+0.4%"}],"max":4.6,"body":"10-year Treasury yield: 4.91%. Tech fell on AI spending worries."},
+{"type":"photo","title":"Why It Matters","photo":"photo.jpg","body":"Oil feeds gasoline and inflation. The Fed holds rates at 3.75% to 4.00%. A lasting oil drop could ease price pressure; a failed deal could reverse it."},
+{"type":"list","title":"What to Watch Next","items":["Nov 3: US midterm results.","Any confirmed US-Iran deal.","Nov 6: October jobs report."],"brand":true}]}

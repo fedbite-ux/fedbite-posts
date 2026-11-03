@@ -23,3 +23,9 @@
 - Reuters week-ahead framed the vote through market consequences (AI scrutiny, regulation), not through who wins.
 - Calm, scannable tone with named events and times; label forecasts and attribute data (LSEG via Reuters).
 (Note: based on CNBC front page fetch and search summaries; no engagement figures visible.)
+
+## 2026-11-03
+- Contrast hooks (big move in one asset, opposite reaction in another) keep leading: oil plunge vs. stocks slipping.
+- Election-eve stories framed through market consequences and dated checkpoints, never winners.
+- Calm tone, one headline number plus a named cause (Iran talks, AI spending worries); label unconfirmed deals as unconfirmed.
+(Note: based on CNBC front page fetch and search summaries; no engagement figures visible.)
