@@ -20,11 +20,12 @@ cmd = [ff, '-y']
 for f in frames:
     cmd += ['-loop', '1', '-t', str(sec + 0.5), '-i', f]
 n = len(frames)
+cmd += ['-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo']
 fade = 0.5
 flt, last = [], '[0:v]'
 for i in range(1, n):
     flt.append(f'{last}[{i}:v]xfade=transition=fade:duration={fade}:offset={round(i*sec,2)}[v{i}]')
     last = f'[v{i}]'
-cmd += ['-filter_complex', ';'.join(flt), '-map', last, '-r', '30', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-preset', 'medium', '-crf', '20', '-movflags', '+faststart', '-an', out]
+cmd += ['-filter_complex', ';'.join(flt), '-map', last, '-map', f'{n}:a', '-r', '30', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-preset', 'medium', '-crf', '20', '-c:a', 'aac', '-b:a', '128k', '-ar', '44100', '-ac', '2', '-shortest', '-movflags', '+faststart', out]
 subprocess.run(cmd, check=True, capture_output=True)
 print(out)
