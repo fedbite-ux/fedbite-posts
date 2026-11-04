@@ -29,3 +29,9 @@
 - Election-eve stories framed through market consequences and dated checkpoints, never winners.
 - Calm tone, one headline number plus a named cause (Iran talks, AI spending worries); label unconfirmed deals as unconfirmed.
 (Note: based on CNBC front page fetch and search summaries; no engagement figures visible.)
+
+## 2026-11-04
+- Contrast hooks again lead: strong close, weak futures; same night, opposite signal.
+- Election-night stories pair one concrete market number with an unresolved event, never naming a winner as settled.
+- Calm, attributed tone: name the firm or analyst behind each estimate (JPMorgan, Pepperstone) and flag what is priced in.
+(Note: based on CNBC page fetches and search summaries; no engagement figures visible.)

@@ -1,0 +1,69 @@
+{
+ "out": "posts/2026-11-04/slides",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": [
+    "Stocks Rose",
+    "on Election Day.",
+    "Futures Fell",
+    "That Night."
+   ],
+   "highlight_line": 2,
+   "size": 98,
+   "subtitle": "Midterms and Markets",
+   "brand": true
+  },
+  {
+   "type": "highlight",
+   "title": "What Happened on Nov 3",
+   "big": "Futures fell about 0.5%",
+   "body": "After the close, S&P 500 futures slipped about 0.5% as early results favored Democrats. Control of Congress is not final. Votes are still being counted."
+  },
+  {
+   "type": "chart",
+   "title": "Close vs. Evening Futures",
+   "subtitle": "Nov 3 moves (bar = size of move)",
+   "bars": [
+    {
+     "label": "S&P close",
+     "value": 0.36,
+     "text": "+0.4%"
+    },
+    {
+     "label": "Dow close",
+     "value": 0.38,
+     "text": "-0.4%"
+    },
+    {
+     "label": "S&P fut.",
+     "value": 0.5,
+     "text": "-0.5%"
+    },
+    {
+     "label": "Nasdaq fut.",
+     "value": 0.9,
+     "text": "-0.9%"
+    }
+   ],
+   "max": 1.0,
+   "body": "Nasdaq closed +0.8%. 10-year Treasury yield: 4.91% at the close."
+  },
+  {
+   "type": "photo",
+   "title": "Why It Matters",
+   "photo": "photo.jpg",
+   "body": "JPMorgan estimated a Democratic sweep could trim the S&P 500 about 0.5% on Wednesday, mainly on AI rules. Some analysts say a narrow win is largely priced in."
+  },
+  {
+   "type": "list",
+   "title": "What to Watch Next",
+   "items": [
+    "Nov 4: Final House and Senate calls.",
+    "Nov 5: US productivity and costs data.",
+    "Nov 6: October jobs report, 8:30 a.m. ET."
+   ],
+   "brand": true
+  }
+ ]
+}
