@@ -35,3 +35,9 @@
 - Election-night stories pair one concrete market number with an unresolved event, never naming a winner as settled.
 - Calm, attributed tone: name the firm or analyst behind each estimate (JPMorgan, Pepperstone) and flag what is priced in.
 (Note: based on CNBC page fetches and search summaries; no engagement figures visible.)
+
+## 2026-11-05
+- Contrast hooks keep leading: the feared dip (analyst warnings) vs. the actual big rally; CNBC front page used a cause-and-effect sentence ("X after Y").
+- Post-election stories pair one record-style number (best day since...) with strategist caution not to overreact.
+- Calm, attributed tone: name the firm (Capital Economics, LPL, UBS, HSBC) behind each view; stay on markets, never on who is better.
+(Note: based on CNBC front page fetch, CBS/CNN/CNBC articles; no engagement figures visible.)

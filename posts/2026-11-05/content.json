@@ -1,0 +1,9 @@
+{
+ "out": "posts/2026-11-05/slides",
+ "slides": [
+  {"type":"cover","headline":["Democrats Took","Congress.","The Dow Jumped","3%."],"highlight_line":2,"size":98,"subtitle":"Midterms and Markets","brand":true},
+  {"type":"highlight","title":"What Happened on Nov 4","big":"Dow up nearly 1,600 points","body":"The day after the midterms, the Dow had its biggest gain of 2026. Democrats won control of Congress, and investors saw less risk of sweeping policy change."},
+  {"type":"chart","title":"Wall Street Closes Higher","subtitle":"Nov 4 moves (percent)","bars":[{"label":"Dow","value":3.0,"text":"+3.0%"},{"label":"S&P 500","value":1.6,"text":"+1.6%"},{"label":"Nasdaq","value":1.4,"text":"+1.4%"}],"max":3.5,"body":"S&P 500 closed at 7,689. Solar and hospital stocks led. AI data center stocks lagged."},
+  {"type":"photo","title":"Why It Matters","photo":"photo.jpg","body":"Split power can slow big tax and spending bills, and Trump can still veto. Strategists warn AI data center rules and the 2027 debt limit are risks."},
+  {"type":"list","title":"What to Watch Next","items":["Nov 6: October jobs report, 8:30 a.m. ET.","Nov 18: Fed minutes from the Oct 27-28 meeting.","Dec 9: Fed rate decision."],"brand":true}
+]}
