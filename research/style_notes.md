@@ -41,3 +41,9 @@
 - Post-election stories pair one record-style number (best day since...) with strategist caution not to overreact.
 - Calm, attributed tone: name the firm (Capital Economics, LPL, UBS, HSBC) behind each view; stay on markets, never on who is better.
 (Note: based on CNBC front page fetch, CBS/CNN/CNBC articles; no engagement figures visible.)
+
+## 2026-11-06
+- Reversal hooks lead: "rally obliterated" (CNBC Investing Club) and "AI trade meltdown" pair a big prior gain with a bigger next-day loss.
+- Cause-and-effect framing: one headline number plus its named driver (AI spending doubts, hedge-fund profit-taking, midterm regulation fears), with a "what's next" jobs-report/Fed angle.
+- Calm, attributed tone: name the source for each view (CME FedWatch odds, CNBC, Reuters) and flag that figures differ slightly by outlet.
+(Note: based on CNBC/Yahoo Finance page fetches and search summaries; no engagement figures visible. Metrics show no clear leading hook family.)
