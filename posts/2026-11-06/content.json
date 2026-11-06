@@ -1,9 +1,64 @@
 {
  "out": "posts/2026-11-06/slides",
  "slides": [
-  {"type":"cover","headline":["A 3% Rally","Lasted","Exactly","One Day."],"highlight_line":3,"size":98,"subtitle":"FedBite Week in Review","brand":true},
-  {"type":"highlight","title":"Number of the Week","big":"5.5%","body":"The Nasdaq fell 5.5% on Thursday, Nov 5, to 24,315, entering a correction. It was the worst day for the S&P 500, Nasdaq and Dow since April 2025, and AI and chip stocks led the fall."},
-  {"type":"chart","title":"Thursday's Selloff","subtitle":"Nov 5 moves (percent)","bars":[{"label":"Nasdaq","value":5.5,"text":"-5.5%"},{"label":"S&P 500","value":4.4,"text":"-4.4%"},{"label":"Dow","value":3.4,"text":"-3.4%"}],"max":6.5,"body":"On Wednesday, the Dow had gained about 3% after Democrats won Congress. Thursday erased that rally."},
-  {"type":"photo","title":"Why It Matters","photo":"photo.jpg","body":"Investors fear tighter rules on AI data centers and doubt that huge AI spending will pay off. The Fed held at 3.75% to 4% on Oct 28, with two votes to raise."},
-  {"type":"list","title":"What to Watch Next","items":["Nov 6: October jobs report, 8:30 a.m. ET.","Nov 18: Fed minutes from the Oct 27-28 meeting.","Dec 9: Fed rate decision."],"brand":true}
-]}
+  {
+   "type": "cover",
+   "headline": [
+    "A 3% Rally",
+    "Lasted",
+    "Exactly",
+    "One Day."
+   ],
+   "highlight_line": 3,
+   "size": 98,
+   "subtitle": "FedBite Week in Review",
+   "brand": true
+  },
+  {
+   "type": "highlight",
+   "title": "Number of the Week",
+   "big": "5.5%",
+   "body": "The Nasdaq fell 5.5% on Thursday, Nov 5, to 24,315, entering a correction. It was the worst day for the S&P 500, Nasdaq and Dow since April 2025, and AI and chip stocks led the fall."
+  },
+  {
+   "type": "chart",
+   "title": "Thursday's Selloff",
+   "subtitle": "Nov 5 moves (percent)",
+   "bars": [
+    {
+     "label": "Nasdaq",
+     "value": 5.5,
+     "text": "-5.5%"
+    },
+    {
+     "label": "S&P 500",
+     "value": 4.4,
+     "text": "-4.4%"
+    },
+    {
+     "label": "Dow",
+     "value": 3.4,
+     "text": "-3.4%"
+    }
+   ],
+   "max": 6.5,
+   "body": "On Wednesday, the Dow had gained about 3% after Democrats won Congress. Thursday erased that rally."
+  },
+  {
+   "type": "photo",
+   "title": "Why It Matters",
+   "photo": "photo.jpg",
+   "body": "Oil fell 8.3% on Wednesday on Iran-deal hopes, then steadied near $90 (WTI). Trump blamed Democrats for Thursday's drop, while analysts cited AI spending doubts."
+  },
+  {
+   "type": "list",
+   "title": "What to Watch Next",
+   "items": [
+    "Nov 6: October jobs report, 8:30 a.m. ET.",
+    "Nov 18: Fed minutes from the Oct 27-28 meeting.",
+    "Dec 9: Fed rate decision."
+   ],
+   "brand": true
+  }
+ ]
+}
