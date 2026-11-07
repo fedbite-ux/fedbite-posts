@@ -1,0 +1,70 @@
+{
+ "out": "posts/2026-11-07/slides",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": [
+    "165,000 Jobs.",
+    "Fed Hike Odds",
+    "Jumped",
+    "Within Hours."
+   ],
+   "highlight_line": 3,
+   "size": 98,
+   "subtitle": "October jobs report, Nov 6",
+   "brand": true
+  },
+  {
+   "type": "highlight",
+   "title": "What Happened",
+   "big": "165,000 jobs added in October",
+   "body": "Economists expected about 59,000 to 65,000. Unemployment slipped to 4.1% and wages rose 3.1% from a year ago (BLS, Nov 6)."
+  },
+  {
+   "type": "chart",
+   "title": "The Key Numbers",
+   "subtitle": "Monthly job gains (thousands)",
+   "bars": [
+    {
+     "label": "Aug",
+     "value": 186,
+     "text": "186K"
+    },
+    {
+     "label": "Sep",
+     "value": 60,
+     "text": "60K"
+    },
+    {
+     "label": "Oct",
+     "value": 165,
+     "text": "165K"
+    },
+    {
+     "label": "Oct est.*",
+     "value": 59,
+     "forecast": true,
+     "text": "59K"
+    }
+   ],
+   "max": 220,
+   "body": "Aug and Sep were revised up by 84,000 combined. *Consensus estimate."
+  },
+  {
+   "type": "photo",
+   "title": "Why It Matters",
+   "photo": "photo.jpg",
+   "body": "Strong hiring gives the Fed room to raise rates. Odds of a Dec 9 hike jumped from about 67% to 85%, then eased to 78%. These are market estimates, not decisions."
+  },
+  {
+   "type": "list",
+   "title": "What to Watch Next",
+   "items": [
+    "Nov 10: October CPI inflation, 8:30 a.m. ET.",
+    "Nov 18: Fed minutes from the Oct meeting.",
+    "Dec 9: Fed rate decision."
+   ],
+   "brand": true
+  }
+ ]
+}

@@ -47,3 +47,9 @@
 - Cause-and-effect framing: one headline number plus its named driver (AI spending doubts, hedge-fund profit-taking, midterm regulation fears), with a "what's next" jobs-report/Fed angle.
 - Calm, attributed tone: name the source for each view (CME FedWatch odds, CNBC, Reuters) and flag that figures differ slightly by outlet.
 (Note: based on CNBC/Yahoo Finance page fetches and search summaries; no engagement figures visible. Metrics show no clear leading hook family.)
+
+## 2026-11-07
+- Beat-vs-expectations hooks lead: jobs far above forecast, then the market reaction (hike odds, yields), as in Axios/Reuters framing.
+- Underneath-the-headline angles trend (CNBC on rising long-term unemployment, AI-financing costs): one number plus a hidden catch.
+- Calm, attributed tone: name the source for each odds figure (CME via Axios, Yahoo Finance) and label estimates as market-implied.
+(Note: based on CNBC and Yahoo Finance page fetches and search summaries; no engagement figures visible.)
