@@ -53,3 +53,9 @@
 - Underneath-the-headline angles trend (CNBC on rising long-term unemployment, AI-financing costs): one number plus a hidden catch.
 - Calm, attributed tone: name the source for each odds figure (CME via Axios, Yahoo Finance) and label estimates as market-implied.
 (Note: based on CNBC and Yahoo Finance page fetches and search summaries; no engagement figures visible.)
+
+## 2026-11-08
+- Week-ahead framing leads on Sunday: CPI Tuesday plus a stressed AI/tech trade (CNBC week-ahead, Yahoo Finance front page).
+- Hidden-catch angle: an official data quirk (no yearly rate) beats a plain preview; one confirmed fact plus its consequence.
+- Calm, attributed tone: name BLS, Cleveland Fed nowcast and RBC; label estimates and note they vary by source.
+(Note: based on CNBC and Yahoo Finance page fetches and search summaries; no engagement figures visible.)

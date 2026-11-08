@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-08/slides",
+ "slides": [
+  {"type":"cover","headline":["Tuesday's CPI","Report Will Skip","Its Biggest","Number."],"highlight_line":2,"size":98,"subtitle":"October CPI, Nov 10","brand":true},
+  {"type":"highlight","title":"What Is Different","big":"No yearly inflation rate","body":"BLS will not publish 12-month changes for October 2026 where October 2025 data is missing. The 2025 shutdown stopped price collection."},
+  {"type":"chart","title":"The Key Numbers","subtitle":"Monthly CPI change (%)","bars":[{"label":"Sep actual","value":0.6,"text":"0.6%"},{"label":"Oct est.*","value":0.3,"forecast":true,"text":"0.3%"},{"label":"Sep core","value":0.3,"text":"0.3%"},{"label":"Oct core est.*","value":0.2,"forecast":true,"text":"0.2%"}],"max":0.8,"body":"September yearly CPI was 3.7% (core 2.6%). *Economist estimates; they vary by source."},
+  {"type":"highlight","title":"Why It Matters","big":"Dec 9 Fed hike odds near 78%","body":"Markets already lean toward a hike. Without a yearly rate, the monthly figures carry more weight. Odds are market estimates (Nov 6), not Fed decisions."},
+  {"type":"list","title":"What to Watch Next","items":["Nov 10: CPI, 8:30 a.m. ET.","Nov 13: Producer prices (PPI) for October.","Dec 9: Fed rate decision."],"brand":true}
+ ]
+}
