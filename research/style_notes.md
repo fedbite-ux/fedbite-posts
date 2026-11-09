@@ -59,3 +59,9 @@
 - Hidden-catch angle: an official data quirk (no yearly rate) beats a plain preview; one confirmed fact plus its consequence.
 - Calm, attributed tone: name BLS, Cleveland Fed nowcast and RBC; label estimates and note they vary by source.
 (Note: based on CNBC and Yahoo Finance page fetches and search summaries; no engagement figures visible.)
+
+## 2026-11-09
+- Cause-and-effect headlines lead ("X after Y": crypto slide after midterms, yields fall as midterms rattle AI stocks); a political trigger tied to a market move.
+- Big-number-from-a-peak framing (Nasdaq in correction, Nvidia's loss since its record) plus "what happens next" explainers.
+- Calm, attributed tone: name the agency or outlet behind each date and label estimates. Monday calendar posts work best as a dated checklist.
+(Note: based on CNBC and Yahoo Finance page fetches, which looked partly cached; no engagement figures visible. Used for style only, not facts.)

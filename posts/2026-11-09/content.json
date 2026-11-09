@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-09/slides",
+ "slides": [
+  {"type":"cover","headline":["5 Dates That","Could Move","Markets","This Week."],"highlight_line":2,"size":98,"subtitle":"FedBite Week Ahead","brand":true},
+  {"type":"highlight","title":"Two Inflation Reports","big":"CPI Tuesday, PPI Friday","body":"BLS releases October consumer prices on Nov 10 and producer prices on Nov 13, both at 8:30 a.m. ET. Economists expect CPI up 0.3% on the month (core 0.2%). Estimates vary."},
+  {"type":"chart","title":"Mortgage Rates, 3 Weeks Down","subtitle":"Freddie Mac 30-year average (%)","bars":[{"label":"Oct 22","value":7.32,"text":"7.32%"},{"label":"Oct 29","value":7.24,"text":"7.24%"},{"label":"Nov 5","value":7.18,"text":"7.18%"}],"max":8,"body":"Next weekly update: Thu, Nov 12. A year ago the rate was 6.22%. Bond auctions can move it."},
+  {"type":"photo","title":"Why It Matters","photo":"photo.jpg","body":"Treasury sells 3-year (Mon), 10-year (Tue) and 30-year (Thu) debt at 1 p.m. ET. Weak demand can lift yields. Markets price roughly 75% odds of a December Fed hike (estimate)."},
+  {"type":"list","title":"Save This: Week Checklist","items":["Mon 9: 3-year auction. Tue 10: CPI, 10-year auction.","Wed 11: Veterans Day, no BLS data, bond markets closed.","Thu 12: 30-year auction. Fri 13: PPI."],"brand":true}
+ ]
+}
