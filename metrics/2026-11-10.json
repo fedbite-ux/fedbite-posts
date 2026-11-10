@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-10",
+ "followers_count": 1956,
+ "media_count": 35,
+ "note": "all recent posts show 0 likes and 0 comments via API (15 most recent checked)",
+ "recent_posts": [
+  {
+   "id": "18138066571638503",
+   "permalink": "https://www.instagram.com/p/DfitR07Fzb9/",
+   "timestamp": "2026-11-10T01:17:52+0000",
+   "like_count": 0,
+   "comments_count": 0
+  },
+  {
+   "id": "17952883773299955",
+   "permalink": "https://www.instagram.com/p/DfgIqgwDBvX/",
+   "timestamp": "2026-11-09T01:19:22+0000",
+   "like_count": 0,
+   "comments_count": 0
+  },
+  {
+   "id": "17913187902556920",
+   "permalink": "https://www.instagram.com/p/DfdjmKfjN74/",
+   "timestamp": "2026-11-08T01:17:04+0000",
+   "like_count": 0,
+   "comments_count": 0
+  }
+ ]
+}
