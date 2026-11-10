@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-10/slides",
+ "slides": [
+  {"type":"cover","headline":["Nasdaq +2.7%.","Now Comes","Tuesday's","CPI Test."],"highlight_line":0,"size":98,"subtitle":"Stocks rebound, Nov 9","brand":true},
+  {"type":"highlight","title":"What Happened Monday","big":"Stocks rebounded 2%+","body":"All three major US indexes rose more than 2% on Nov 9, led by chip stocks after last week's steep losses. Falling oil prices eased inflation worries."},
+  {"type":"chart","title":"The Key Numbers","subtitle":"One-day change, Nov 9 close (%)","bars":[{"label":"Nasdaq","value":2.74,"text":"2.74%"},{"label":"S&P 500","value":2.35,"text":"2.35%"},{"label":"Dow","value":2.15,"text":"2.15%"}],"max":3.5,"body":"S&P 500 closed at 7,549.94. Nvidia fell about 4% on a company probe, a rare exception."},
+  {"type":"highlight","title":"Why It Matters","big":"Rally meets inflation data","body":"BLS publishes October CPI on Nov 10 at 8:30 a.m. ET. Economists expect core prices up about 0.2% on the month (estimate). No yearly rate will be published."},
+  {"type":"list","title":"What to Watch Next","items":["Nov 10: CPI, 8:30 a.m. ET.","Nov 12: 30-year Treasury auction.","Nov 13: Producer prices (PPI)."],"brand":true}
+ ]
+}

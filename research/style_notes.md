@@ -65,3 +65,9 @@
 - Big-number-from-a-peak framing (Nasdaq in correction, Nvidia's loss since its record) plus "what happens next" explainers.
 - Calm, attributed tone: name the agency or outlet behind each date and label estimates. Monday calendar posts work best as a dated checklist.
 (Note: based on CNBC and Yahoo Finance page fetches, which looked partly cached; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-10
+- Index-move hooks lead after a selloff: one big percentage (Nasdaq +2.7%) tied to the next scheduled catalyst (CPI).
+- Exception angle trends: a broad rally with one big laggard (Nvidia) gives readers a hidden catch.
+- Calm, attributed tone: name the recap source and label CPI estimates; oil levels differ by outlet so omit them.
+(Note: based on CNBC page fetch and search recaps (Motley Fool, MarketScreener); no engagement figures visible.)
