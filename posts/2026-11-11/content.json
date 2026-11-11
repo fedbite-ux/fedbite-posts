@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-11/slides",
+ "slides": [
+  {"type":"cover","headline":["Prices Rose 0.4%.","Now the Fed","Mulls a Bigger","Hike."],"highlight_line":0,"size":98,"subtitle":"October CPI, Nov 10","brand":true},
+  {"type":"highlight","title":"What Happened","big":"Hotter than forecast","body":"Consumer prices rose 0.4% in October vs 0.3% expected. Core prices, which exclude food and energy, rose 0.3% vs 0.2% expected. Stocks fell and Treasury yields rose."},
+  {"type":"chart","title":"The Key Numbers","subtitle":"October CPI, monthly change (%)","bars":[{"label":"Headline","value":0.4,"text":"0.4%"},{"label":"Core","value":0.3,"text":"0.3%"},{"label":"Shelter","value":0.3,"text":"0.3%"},{"label":"Energy","value":0.7,"text":"0.7%"},{"label":"Food","value":0.5,"text":"0.5%"}],"max":0.9,"body":"Seasonally adjusted. BLS did not publish most yearly rates because October 2025 data is missing."},
+  {"type":"highlight","title":"Why It Matters","big":"A bigger hike is now possible","body":"The Fed held at 3.75% to 4% on Oct 28. Traders now price a quarter-point hike in December as a near certainty, plus a 13.6% chance of a half-point move (CME FedWatch, Nov 10)."},
+  {"type":"list","title":"What to Watch Next","items":["Nov 13: Producer prices (PPI).","Through Dec 8: Fed speakers on hike size.","Dec 8 to 9: Fed meeting decision."],"brand":true}
+ ]
+}

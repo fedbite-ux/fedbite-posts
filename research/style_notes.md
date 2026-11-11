@@ -71,3 +71,9 @@
 - Exception angle trends: a broad rally with one big laggard (Nvidia) gives readers a hidden catch.
 - Calm, attributed tone: name the recap source and label CPI estimates; oil levels differ by outlet so omit them.
 (Note: based on CNBC page fetch and search recaps (Motley Fool, MarketScreener); no engagement figures visible.)
+
+## 2026-11-11
+- Hot-data hooks lead: one actual vs forecast number (CPI +0.4% vs 0.3%) followed by the policy consequence (bigger Fed hike).
+- Hidden-catch angles trend: no yearly rate published, plus a half-point-hike possibility after Waller's stated threshold.
+- Calm, attributed tone: name BLS, CNBC, CME FedWatch; label odds as market-implied; outlets differ on exact odds.
+(Note: based on CNBC page fetch, Yahoo Finance live blog and search summaries; no engagement figures visible.)
