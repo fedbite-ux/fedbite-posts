@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-12/slides",
+ "slides": [
+  {"type":"cover","headline":["Nvidia's Board","Reportedly","Weighs Its CEO's","Future."],"highlight_line":0,"size":98,"subtitle":"WSJ report, Nov 11","brand":true},
+  {"type":"highlight","title":"What Happened","big":"Shares fell after hours","body":"On Nov 11 the Wall Street Journal reported Nvidia's board is preparing to remove CEO Jensen Huang. Nvidia declined to comment. The board opened an investigation on Nov 8. Reports of the drop ranged from about 3% to 10%."},
+  {"type":"chart","title":"The Key Numbers","subtitle":"Nov 11 regular session, change (%)","bars":[{"label":"Nasdaq","value":1.6,"text":"+1.6%"},{"label":"S&P 500","value":1.3,"text":"+1.3%"},{"label":"Dow","value":0.5,"text":"+0.5%"}],"max":2,"body":"Indexes rose before the news. CBS reported Nvidia down over 8% after hours, to $159.51."},
+  {"type":"photo","title":"Why It Matters","photo":"photo.jpg","body":"Nvidia is a heavyweight in AI trade and in major stock indexes, so big moves can lift or drag the whole market. Leadership doubt arrives days before its Nov 17 earnings."},
+  {"type":"list","title":"What to Watch Next","items":["Nov 12: Nvidia statement or board decision.","Nov 12: Jobless claims, existing home sales.","Nov 17: Nvidia earnings after the close."],"brand":true}
+ ]
+}

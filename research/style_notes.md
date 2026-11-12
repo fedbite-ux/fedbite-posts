@@ -77,3 +77,9 @@
 - Hidden-catch angles trend: no yearly rate published, plus a half-point-hike possibility after Waller's stated threshold.
 - Calm, attributed tone: name BLS, CNBC, CME FedWatch; label odds as market-implied; outlets differ on exact odds.
 (Note: based on CNBC page fetch, Yahoo Finance live blog and search summaries; no engagement figures visible.)
+
+## 2026-11-12
+- Company-shock hooks lead: one named giant plus a pending decision ("board weighs CEO's future") with a market consequence.
+- Contrast angles trend: indexes rallied during the day, then the after-hours reversal; the hidden catch is the timing before earnings.
+- Calm, attributed tone: name WSJ, CNBC, CBS and Reuters; label the story as a report the company has not confirmed; outlets differ on the size of the drop.
+(Note: based on CNBC and Yahoo Finance page fetches and search summaries; no engagement figures visible. Used for style only, not facts.)
