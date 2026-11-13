@@ -83,3 +83,9 @@
 - Contrast angles trend: indexes rallied during the day, then the after-hours reversal; the hidden catch is the timing before earnings.
 - Calm, attributed tone: name WSJ, CNBC, CBS and Reuters; label the story as a report the company has not confirmed; outlets differ on the size of the drop.
 (Note: based on CNBC and Yahoo Finance page fetches and search summaries; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-13
+- Weekly-recap hooks work as a three-beat contrast ("hotter data, cheaper oil, hike priced in") that compresses the week into one line.
+- Contradiction angles trend: oil fell below $90 yet the 10-year yield returned above 5%, so cheaper crude did not mean cheaper money.
+- Calm, attributed tone: name BLS, CNBC and the date of each remark; label odds as market-implied; outlets differ on exact odds.
+(Note: based on CNBC page fetch and search summaries; no engagement figures visible. Used for style only, not facts.)

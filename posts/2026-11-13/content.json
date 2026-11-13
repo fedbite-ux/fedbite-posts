@@ -1,0 +1,9 @@
+{
+ "out": "posts/2026-11-13/slides",
+ "slides": [
+  {"type":"cover","headline":["Hotter CPI,","Cheaper Oil,","Fed Hike","Priced In."],"highlight_line":2,"size":98,"subtitle":"FedBite Week in Review","brand":true},
+  {"type":"highlight","title":"Story 1: Inflation Ran Hot","big":"CPI +0.4% in October","body":"BLS reported prices up 0.4% on the month (core +0.3%), above forecasts of 0.3% and 0.2%. No yearly rate was published because of missing data from the 2025 shutdown."},
+  {"type":"chart","title":"Number of the Week: 0.4%","subtitle":"October CPI, monthly change (%)","bars":[{"label":"Headline est.","value":0.3,"forecast":true,"text":"0.3%"},{"label":"Headline","value":0.4,"text":"0.4%"},{"label":"Core est.","value":0.2,"forecast":true,"text":"0.2%"},{"label":"Core","value":0.3,"text":"0.3%"}],"max":0.5,"body":"Actual vs forecast. Light bars are forecasts; outlets vary."},
+  {"type":"photo","title":"Stories 2 and 3: Fed and Oil","photo":"photo.jpg","body":"Fed Governor Waller said on Nov 10 he backs a December hike. Brent oil fell below $90 on Iran deal hopes, yet the 10-year yield was back above 5% by Nov 12."},
+  {"type":"list","title":"Save This: What to Watch Next","items":["Nov 13: October PPI (producer prices), 8:30 a.m. ET.","Nov 17: Nvidia earnings, after the close.","Dec 8 to 9: Fed meeting. Dec 10: November CPI."],"brand":true}
+]}
