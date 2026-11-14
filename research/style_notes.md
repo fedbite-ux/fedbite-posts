@@ -89,3 +89,9 @@
 - Contradiction angles trend: oil fell below $90 yet the 10-year yield returned above 5%, so cheaper crude did not mean cheaper money.
 - Calm, attributed tone: name BLS, CNBC and the date of each remark; label odds as market-implied; outlets differ on exact odds.
 (Note: based on CNBC page fetch and search summaries; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-14
+- Record-high framing leads: "highest annual rate since Nov 2022" gives a clear, checkable stake.
+- Contradiction angles trend: monthly figure cooled while the yearly rate rose, so the headline hides the bigger story.
+- Calm, attributed tone: name BLS and CNBC with the release date; label Fed odds as market-implied (CME FedWatch via CNBC).
+(Note: based on CNBC page fetches and search summaries; no engagement figures visible. Used for style only, not facts.)

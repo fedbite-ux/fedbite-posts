@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-14/slides","slides":[
+{"type":"cover","headline":["Wholesale Prices","Cooled Monthly.","The Yearly Rate","Hit 6.5%."],"highlight_line":3,"size":98,"subtitle":"Producer Prices, October","brand":true},
+{"type":"highlight","title":"What Happened","big":"PPI +0.3% in October","body":"BLS said producer prices (what businesses receive for goods and services) rose 0.3% on the month, a bit below the 0.4% forecast. Over 12 months they rose 6.5%."},
+{"type":"chart","title":"The Key Numbers","subtitle":"PPI final demand, 12-month change (%)","bars":[{"label":"Total","value":6.5,"text":"6.5%"},{"label":"Goods","value":10.2,"text":"10.2%"},{"label":"Services","value":5.0,"text":"5.0%"},{"label":"Core*","value":5.0,"text":"5.0%"}],"max":12,"body":"October 2026, unadjusted. 6.5% is the highest since Nov 2022. *Excludes food and energy."},
+{"type":"photo","title":"Why It Matters","photo":"photo.jpg","body":"Producer prices can feed into what shoppers pay later. Policymakers worry that fuel and tariff costs are spreading. Futures priced about 87% odds of a December Fed hike."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Nov 18: Fed minutes from the October meeting, 2 p.m. ET.","Dec 8 to 9: Fed meeting. Futures lean to a quarter-point hike.","Dec 10: November CPI, the next inflation check."],"brand":true}
+]}
