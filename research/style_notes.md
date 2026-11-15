@@ -95,3 +95,9 @@
 - Contradiction angles trend: monthly figure cooled while the yearly rate rose, so the headline hides the bigger story.
 - Calm, attributed tone: name BLS and CNBC with the release date; label Fed odds as market-implied (CME FedWatch via CNBC).
 (Note: based on CNBC page fetches and search summaries; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-15
+- Corporate-shock follow-ups lead: the "who is in charge now" angle plus a dated catalyst (earnings Tuesday) in one hook.
+- Consequence framing trends: leadership change at an index heavyweight, with the market question (AI demand outlook) stated plainly.
+- Calm, attributed tone: cite the SEC filing and CBS; leave out personal details and keep to governance and markets.
+(Note: based on CNBC front-page headlines and search summaries; no engagement figures visible. Used for style only, not facts.)
