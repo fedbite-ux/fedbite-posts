@@ -1,0 +1,69 @@
+{
+ "out": "posts/2026-11-16/slides",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": [
+    "10-Year Yield",
+    "Hit 5.15%.",
+    "Three Events",
+    "Could Move It."
+   ],
+   "highlight_line": 1,
+   "size": 98,
+   "subtitle": "FedBite Week Ahead",
+   "brand": true
+  },
+  {
+   "type": "highlight",
+   "title": "Tuesday, Nov 17: Two Big Tests",
+   "big": "Retail Sales + Nvidia",
+   "body": "Census reports October retail sales at 8:30 a.m. ET. Nvidia reports quarterly results after the close (call at 5 p.m. ET), its first since its CEO change. Home Depot reports before the open."
+  },
+  {
+   "type": "chart",
+   "title": "10-Year Yield Keeps Climbing",
+   "subtitle": "Treasury 10-year yield, daily close (%)",
+   "bars": [
+    {
+     "label": "Nov 6",
+     "value": 4.86,
+     "text": "4.86%"
+    },
+    {
+     "label": "Nov 10",
+     "value": 4.98,
+     "text": "4.98%"
+    },
+    {
+     "label": "Nov 12",
+     "value": 5.1,
+     "text": "5.10%"
+    },
+    {
+     "label": "Nov 13",
+     "value": 5.15,
+     "text": "5.15%"
+    }
+   ],
+   "max": 5.5,
+   "body": "Nov 11 was a bond-market holiday. Freddie Mac's 30-year mortgage rate was 7.11% on Nov 12."
+  },
+  {
+   "type": "highlight",
+   "title": "Wednesday, Nov 18: Fed Minutes",
+   "big": "2 p.m. ET",
+   "body": "The Fed publishes notes from its Oct 27-28 meeting. Markets price about an 87% chance of a December hike (CME FedWatch via CNBC, Nov 13). That is an estimate, not a decision."
+  },
+  {
+   "type": "list",
+   "title": "Save This: Week Checklist",
+   "items": [
+    "Mon: Warsh speaks. Tue: retail sales, Nvidia.",
+    "Wed: housing starts, Fed minutes 2 p.m.",
+    "Thu: Jefferson speaks. Fri: Cook speaks."
+   ],
+   "brand": true
+  }
+ ]
+}

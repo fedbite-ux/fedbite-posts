@@ -101,3 +101,9 @@
 - Consequence framing trends: leadership change at an index heavyweight, with the market question (AI demand outlook) stated plainly.
 - Calm, attributed tone: cite the SEC filing and CBS; leave out personal details and keep to governance and markets.
 (Note: based on CNBC front-page headlines and search summaries; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-16
+- Event-stack leads: one big market number (10-year yield) paired with a count of dated catalysts this week.
+- Corporate shock continues to dominate front pages (Nvidia earnings after CEO change), so calendar posts should name it early.
+- Calm, attributed tone: cite Fed, Census, Treasury and CNBC with dates; label odds as market-implied.
+(Note: based on CNBC front-page fetch and search summaries; no engagement figures visible. Used for style only, not facts.)
