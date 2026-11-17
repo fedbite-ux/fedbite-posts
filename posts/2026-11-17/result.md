@@ -16,3 +16,7 @@ Chosen family: c
 
 Sources: Yahoo Finance (Nov 16), IBTimes (Nov 16), Seeking Alpha (Nov 16), Fed and Census calendars.
 Caption: see caption.txt
+Slides: https://raw.githubusercontent.com/fedbite-ux/fedbite-posts/main/posts/2026-11-17/slides/slide1.jpg ... slide5.jpg
+Zapier response id: 18441723913177702
+Permalink: https://www.instagram.com/p/Df0uuHbF_yy/
+Followers: 1955
