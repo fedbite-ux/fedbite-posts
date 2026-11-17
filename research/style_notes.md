@@ -107,3 +107,8 @@
 - Corporate shock continues to dominate front pages (Nvidia earnings after CEO change), so calendar posts should name it early.
 - Calm, attributed tone: cite Fed, Census, Treasury and CNBC with dates; label odds as market-implied.
 (Note: based on CNBC front-page fetch and search summaries; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-17
+- Market-moves-before-a-catalyst framing: a big index move paired with the one event everyone waits for (Nvidia results).
+- Several pressures stacked in one explainer (leadership, export rules, yields, Fed) beats a single-cause story.
+- Calm, attributed tone: close figures cross-checked across Yahoo Finance and IBTimes; no engagement data visible. Style only, not facts.

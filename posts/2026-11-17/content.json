@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-17/slides","slides":[
+{"type":"cover","headline":["S&P 500 Fell","1.9% Before","Nvidia's Big","Report Day."],"highlight_line":1,"size":98,"subtitle":"Bite-sized Finance, Big-picture Insights","brand":true},
+{"type":"highlight","title":"What Happened Monday, Nov 16","big":"S&P 500: -1.9%","body":"The Nasdaq fell 2.5% and the Dow fell 739 points, or 1.4%. Tech led the decline, and the major indexes ended near their lows of the day."},
+{"type":"chart","title":"Monday's Declines","subtitle":"Percent drop at the Nov 16 close","bars":[{"label":"Nvidia","value":4.1,"text":"-4.1%"},{"label":"Nasdaq","value":2.5,"text":"-2.5%"},{"label":"S&P 500","value":1.9,"text":"-1.9%"},{"label":"Dow","value":1.4,"text":"-1.4%"}],"max":5,"body":"Nvidia fell for a third straight day after its CEO resigned. It reports results Tuesday after the close."},
+{"type":"highlight","title":"Why It Matters","big":"4 Pressures","body":"Reports cite Nvidia's leadership change, new US limits on China's access to advanced AI chips, a 10-year yield above 5.1%, and an expected Fed rate hike in December."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Tue Nov 17: retail sales 8:30 a.m. ET; Nvidia after close","Wed Nov 18: Fed minutes, 2 p.m. ET","Dec 8 to 9: Fed meeting, hike size in focus"],"brand":true}
+]}
