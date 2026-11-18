@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-18/slides","slides":[
+{"type":"cover","headline":["Nvidia Beat","Estimates: $115.8B.","Stocks Fell","Before It Landed."],"highlight_line":1,"size":98,"subtitle":"Bite-sized Finance, Big-picture Insights","brand":true},
+{"type":"highlight","title":"What Happened Tuesday, Nov 17","big":"$115.8B","body":"Nvidia reported fiscal third-quarter revenue up 103% from a year earlier. Data center revenue was $107.6B, up 110%. Shares rose nearly 4% after hours."},
+{"type":"chart","title":"Nvidia Revenue","subtitle":"US dollars, billions","bars":[{"label":"Q3 forecast","value":109.1,"text":"$109.1B"},{"label":"Q3 actual","value":115.8,"text":"$115.8B"},{"label":"Q4 outlook","value":130,"text":"$130B","forecast":true}],"max":140,"body":"Forecast is the LSEG consensus. Q4 outlook is Nvidia's own guidance, plus or minus 3%."},
+{"type":"highlight","title":"Why It Matters","big":"Dow -1.6%","body":"Chip stocks sold off before the report. On Nov 17 the Dow fell 848 points, the S&P 500 fell 1.0% and the Nasdaq fell 0.7%. The 10-year yield was near 5.1%."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Wed Nov 18: Fed minutes, 2 p.m. ET; Nvidia first trades","Dec 8 to 9: Fed meeting, rate decision","Dec 11: US government funding deadline"],"brand":true}
+]}

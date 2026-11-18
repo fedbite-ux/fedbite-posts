@@ -112,3 +112,8 @@
 - Market-moves-before-a-catalyst framing: a big index move paired with the one event everyone waits for (Nvidia results).
 - Several pressures stacked in one explainer (leadership, export rules, yields, Fed) beats a single-cause story.
 - Calm, attributed tone: close figures cross-checked across Yahoo Finance and IBTimes; no engagement data visible. Style only, not facts.
+
+## 2026-11-18
+- Beat-versus-reaction tension: strong results paired with a market that was already falling.
+- One hard number in the hook ($115.8B) plus a forecast comparison reads as evidence-led.
+- Calm, attributed tone: Nvidia newsroom plus CNBC-reported figures; front-page fetch only, no engagement data. Style only, not facts.
