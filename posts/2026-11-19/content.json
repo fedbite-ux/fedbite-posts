@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-19/slides","slides":[
+{"type":"cover","headline":["Home Sales Hit","a 16-Year Low.","Mortgage Rates","Are Still 7.1%."],"highlight_line":1,"size":98,"subtitle":"Housing Market Update","brand":true},
+{"type":"highlight","title":"What Happened","big":"3.75M Homes","body":"Existing-home sales fell 5.5% in October to a 3.75 million annual pace, the lowest since August 2010 and below the 3.85 million economists expected (NAR, Nov 12). Sales were down 8.8% from a year earlier."},
+{"type":"chart","title":"Mortgage Rates Are Easing, Slowly","subtitle":"Freddie Mac 30-year fixed rate (%)","bars":[{"label":"Nov 2025","value":6.24,"text":"6.24%"},{"label":"Mid-Sep","value":7.4,"text":"7.40%"},{"label":"Nov 5","value":7.18,"text":"7.18%"},{"label":"Nov 12","value":7.11,"text":"7.11%"}],"max":8,"body":"Median price: $416,700, up 0.4% from a year ago. Supply: 5.1 months, the highest since Nov 2015."},
+{"type":"highlight","title":"Why It Matters","big":"Stuck Market","body":"High rates keep buyers out and many owners from selling. Analysts quoted by Real Estate News expect sales to stay near long-time lows for the next few months. Prices are still edging up."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Thursdays: Freddie Mac weekly mortgage rate","Dec 8-9: Fed meeting (rates and outlook)","December: NAR November home-sales report"],"brand":true}
+]}

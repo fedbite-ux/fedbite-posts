@@ -117,3 +117,9 @@
 - Beat-versus-reaction tension: strong results paired with a market that was already falling.
 - One hard number in the hook ($115.8B) plus a forecast comparison reads as evidence-led.
 - Calm, attributed tone: Nvidia newsroom plus CNBC-reported figures; front-page fetch only, no engagement data. Style only, not facts.
+
+## 2026-11-19
+- Superlative-plus-contrast leads: a record or multi-year low paired with a number that has not moved (sales at a 16-year low, mortgage rates still above 7%).
+- Everyday-consumer angle gains ground after several days of market-heavy posts: housing affordability and borrowing costs.
+- Calm, attributed tone: NAR and Freddie Mac named with dates; wire-style headlines on CNBC lead with the figure and the consequence.
+(Note: based on CNBC economy page fetch and search summaries; no engagement figures visible. Used for style only, not facts.)
