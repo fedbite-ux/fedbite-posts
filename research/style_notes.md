@@ -123,3 +123,8 @@
 - Everyday-consumer angle gains ground after several days of market-heavy posts: housing affordability and borrowing costs.
 - Calm, attributed tone: NAR and Freddie Mac named with dates; wire-style headlines on CNBC lead with the figure and the consequence.
 (Note: based on CNBC economy page fetch and search summaries; no engagement figures visible. Used for style only, not facts.)
+
+## 2026-11-20
+- Number-plus-consequence headlines dominate (Dow below 50,000, Nasdaq down 2%, yields, chip counts); the figure leads, the consequence follows.
+- "Despite" contrast framing (markets past peak fear despite oil surge) and hawkish-Fed counts (more hikes may be needed) pair market pain with the policy cause.
+- Calm, attributed tone with dated sources; question headlines are rare. CNBC front page and economy page fetch only; no engagement data visible. Style only, not facts.

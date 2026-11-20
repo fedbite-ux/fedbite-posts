@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-20/slides","slides":[
+{"type":"cover","headline":["S&P 500 Fell","5.1% This Week.","The Fed Sees","More Hikes."],"highlight_line":1,"size":98,"subtitle":"FedBite Week in Review","brand":true},
+{"type":"highlight","title":"Number of the Week","big":"-5.1%","body":"The S&P 500 slid from 7,561.67 (Nov 13) to 7,175.83 (Nov 19), its sixth straight loss and 8.2% below October's record. The Dow closed below 50,000 at 49,097.06."},
+{"type":"chart","title":"Story 1: AI Stocks Led the Drop","subtitle":"S&P 500 daily change (bar = size of drop)","bars":[{"label":"Mon","value":1.9,"text":"-1.9%"},{"label":"Tue","value":1.0,"text":"-1.0%"},{"label":"Wed","value":0.2,"text":"-0.2%"},{"label":"Thu","value":2.0,"text":"-2.0%"}],"max":2.4,"body":"Nvidia's $115.8B quarter (Nov 17) did not end the slide. Over 90% of S&P 500 stocks fell Thursday."},
+{"type":"highlight","title":"Story 2: Fed Minutes","big":"More Hikes Ahead","body":"Minutes (Nov 18): the Fed held at 3.75% to 4% in October, 10 to 2, with two votes for a quarter-point hike. Almost all officials see more hikes as likely. Markets fully price one on Dec 8-9."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Nov 26: US stock markets closed for Thanksgiving","Dec 8-9: Fed meeting, 0.25-point hike priced in","Dec 10: November CPI inflation report (BLS)"],"brand":true}
+]}
