@@ -128,3 +128,8 @@
 - Number-plus-consequence headlines dominate (Dow below 50,000, Nasdaq down 2%, yields, chip counts); the figure leads, the consequence follows.
 - "Despite" contrast framing (markets past peak fear despite oil surge) and hawkish-Fed counts (more hikes may be needed) pair market pain with the policy cause.
 - Calm, attributed tone with dated sources; question headlines are rare. CNBC front page and economy page fetch only; no engagement data visible. Style only, not facts.
+
+## 2026-11-21
+- Superlative-plus-number leads dominate (worst week of 2026, correction, longest losing streak since 2008); the scale of the move is the hook.
+- "Five forces behind" explainer framing and "what to watch next week" follow-ups show readers want cause plus a forward checklist.
+- Calm, attributed tone with dated figures; CNBC and Yahoo Finance front pages only, no engagement data visible. Style only, not facts.

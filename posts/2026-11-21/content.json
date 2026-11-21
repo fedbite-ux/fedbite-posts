@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-21/slides","slides":[
+{"type":"cover","headline":["S&P 500 Fell","8.6% in a Week.","Wall Street","Is in Correction."],"highlight_line":1,"size":98,"subtitle":"Markets Update","brand":true},
+{"type":"highlight","title":"What Happened Friday","big":"-3.7%","body":"The S&P 500 closed at 6,910.39 on Nov 20, down 3.7% on the day. The Nasdaq fell 5.3% and the Dow 1.9%. The S&P 500 and Dow are now more than 10% below their peaks, the usual definition of a correction."},
+{"type":"chart","title":"Weekly Losses, Nov 16 to 20","subtitle":"Change over the week (bar = size of drop)","bars":[{"label":"Dow","value":8.0,"text":"-8%"},{"label":"S&P 500","value":8.6,"text":"-8.6%"},{"label":"Nasdaq","value":10.0,"text":"-10%"},{"label":"Nvidia","value":23.0,"text":"-23%"}],"max":25,"body":"Chip stocks led the drop. The 10-year Treasury yield fell to 4.91% as investors sought safer assets."},
+{"type":"highlight","title":"Why It Matters","big":"AI Trade Unwinds","body":"Nvidia fell 14% Friday and 71 of the 101 Nasdaq-100 stocks are in a bear market (down 20% or more). Many 401(k) and index funds hold these stocks. The Fed also signals more rate hikes ahead."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Nov 26: US stock markets closed for Thanksgiving","Dec 8-9: Fed meeting, a rate hike is expected","Dec 10: November CPI inflation report (BLS)"],"brand":true}
+]}
