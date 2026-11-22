@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-22/slides","slides":[
+{"type":"cover","headline":["Card Rates","Average 22.4%.","Washington Eyes","a 10% Cap."],"highlight_line":1,"size":98,"subtitle":"Top Story","brand":true},
+{"type":"highlight","title":"What Happened Saturday","big":"10% Cap","body":"On Nov 21, President Trump said on Fox News he would work with the incoming Democratic Congress to cap credit card interest at 10%. He first proposed a one-year cap in January, but no cap was ever enacted."},
+{"type":"chart","title":"Card Rate vs Proposed Cap","subtitle":"Interest rate, percent per year","bars":[{"label":"Proposed cap","value":10.0,"text":"10%"},{"label":"Avg card rate","value":22.36,"text":"22.4%"}],"max":25,"body":"Fed average on accounts paying interest, Q3 2026 (preliminary). Card balances: about $1.285 trillion."},
+{"type":"highlight","title":"Why It Matters","big":"Not Law Yet","body":"Banks oppose a cap, warning of lower limits and closed accounts. A bill still needs Congress, and Democrats take control of both chambers in January. Researchers cited by AP estimate savings near $100 billion a year."},
+{"type":"list","title":"Save This: What to Watch Next","items":["Dec 8-9: Fed meeting, a rate hike is widely expected","Dec 10: November CPI inflation report (BLS)","January: new Congress; watch for a card cap bill"],"brand":true}
+]}

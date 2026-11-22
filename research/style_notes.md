@@ -133,3 +133,8 @@
 - Superlative-plus-number leads dominate (worst week of 2026, correction, longest losing streak since 2008); the scale of the move is the hook.
 - "Five forces behind" explainer framing and "what to watch next week" follow-ups show readers want cause plus a forward checklist.
 - Calm, attributed tone with dated figures; CNBC and Yahoo Finance front pages only, no engagement data visible. Style only, not facts.
+
+## 2026-11-22
+- Consequence-for-your-wallet leads (card rates, borrowing costs) after a week of market-crash headlines; the everyday-consumer angle stands out against index-level news.
+- Contrast framing: a current number next to a proposed number (22% vs 10%) makes the stakes instantly visible.
+- Calm, attributed tone: AP and Newsweek reporting plus official Fed and New York Fed data; Yahoo Finance and CNBC front pages only, no engagement data visible. Style only, not facts.
