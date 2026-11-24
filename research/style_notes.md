@@ -143,3 +143,8 @@
 - Number-plus-scale leads after the sell-off (correction, worst week) and "what to watch this week" previews on Yahoo Finance and CNBC front pages.
 - Forward-checklist framing: readers want dates and catalysts (Fed, data, auctions) after a volatile week.
 - Calm, attributed tone with dated figures; no engagement data visible. Style only, not facts.
+
+## 2026-11-24
+- Record-scale leads dominate (best day since April 2025, largest one-day market-value gain); the size of the move is the hook.
+- Whiplash framing: a sharp rebound next to last week's sell-off, with analysts cautioning that volatility takes weeks to settle.
+- Calm, attributed tone with dated figures; CNBC, Yahoo Finance and NBC/AP front pages only, no engagement data visible. Style only, not facts.

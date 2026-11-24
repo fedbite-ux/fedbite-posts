@@ -1,0 +1,7 @@
+{"out":"posts/2026-11-24/slides","slides":[
+{"type":"cover","headline":["S&P 500 Jumped","4.7% in a Day.","Half the Week's","Loss Is Back."],"highlight_line":1,"size":98,"subtitle":"Markets Update","brand":true},
+{"type":"highlight","title":"What Happened Monday, Nov 23","big":"+31%","body":"Nvidia shares jumped about 31% after its board reinstated Jensen Huang as CEO. Chip and AI stocks led the biggest one-day gain for US stocks since April 2025."},
+{"type":"chart","title":"The Numbers: Monday's Close","subtitle":"One-day change, Nov 23 (%)","bars":[{"label":"Dow","value":3.0},{"label":"S&P 500","value":4.7},{"label":"Nasdaq","value":6.5}],"max":8,"body":"The S&P 500 closed at 7,237.17, up from 6,910.39 on Friday."},
+{"type":"highlight","title":"Why It Matters","big":"6-8 Weeks","body":"Deutsche Bank's Jim Reid said similar volatility shocks have often taken 6 to 8 weeks to settle. Nvidia is still about 30% below its Oct 6 record."},
+{"type":"list","title":"What to Watch Next","items":["Nov 25: GDP, income data","Dec 4: jobs report","Dec 8-9: Fed rate decision"],"brand":true}
+]}
