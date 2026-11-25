@@ -148,3 +148,8 @@
 - Record-scale leads dominate (best day since April 2025, largest one-day market-value gain); the size of the move is the hook.
 - Whiplash framing: a sharp rebound next to last week's sell-off, with analysts cautioning that volatility takes weeks to settle.
 - Calm, attributed tone with dated figures; CNBC, Yahoo Finance and NBC/AP front pages only, no engagement data visible. Style only, not facts.
+
+## 2026-11-25
+- Reversal framing: yesterday's record surge next to today's pullback (31.5% jump, then a 5.9% drop); the contrast is the hook.
+- Split-market numbers (Dow up, Nasdaq down) and "ahead of key inflation data" previews lead CNBC and AP headlines.
+- Calm, attributed tone with dated figures; no engagement data visible. Style only, not facts.

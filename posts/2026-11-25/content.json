@@ -1,0 +1,46 @@
+{
+ "out": "posts/2026-11-25/slides",
+ "slides": [
+  {
+   "type": "cover",
+   "headline": [
+    "Nvidia Jumped",
+    "31.5% Monday.",
+    "Then AI Stocks",
+    "Fell Tuesday."
+   ],
+   "highlight_line": 1,
+   "size": 98,
+   "subtitle": "Markets Update",
+   "brand": true
+  },
+  {
+   "type": "highlight",
+   "title": "What Happened Tuesday, Nov 24",
+   "big": "-5.9%",
+   "body": "Nvidia fell about 5.9% a day after its 31.5% surge. CoreWeave dropped 11.8%. Goldman Sachs said Monday's jump leaned heavily on short covering."
+  },
+  {
+   "type": "highlight",
+   "title": "The Numbers: Tuesday's Close",
+   "big": "-1.5%",
+   "body": "Nasdaq fell 1.5% to 23,733.54. S&P 500 lost 0.5% to 7,201.09. The Dow rose 0.9%, up 423 points to 50,018.70."
+  },
+  {
+   "type": "highlight",
+   "title": "Why It Matters",
+   "big": "90%+",
+   "body": "Futures pricing put the odds of a December Fed rate hike above 90%, Yahoo Finance reported. Higher rates make borrowing costlier for AI builders."
+  },
+  {
+   "type": "list",
+   "title": "What to Watch Next",
+   "items": [
+    "Nov 25: GDP and income data",
+    "Nov 26: US markets closed",
+    "Dec 8-9: Fed rate decision"
+   ],
+   "brand": true
+  }
+ ]
+}
