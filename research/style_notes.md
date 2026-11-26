@@ -153,3 +153,8 @@
 - Reversal framing: yesterday's record surge next to today's pullback (31.5% jump, then a 5.9% drop); the contrast is the hook.
 - Split-market numbers (Dow up, Nasdaq down) and "ahead of key inflation data" previews lead CNBC and AP headlines.
 - Calm, attributed tone with dated figures; no engagement data visible. Style only, not facts.
+
+## 2026-11-26
+- Inflation-seals-the-hike framing (hot PCE makes a December Fed hike near certain); the policy consequence leads over the data print.
+- Volatility whiplash headlines (Dow erases a 1,000-point drop while Nasdaq falls) pair a split market with a clear cause.
+- Calm, attributed tone with dated figures; CNBC front page only, no engagement data visible. Style only, not facts.

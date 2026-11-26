@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-26/slides",
+ "slides": [
+  {"type":"cover","headline":["Inflation Hit 3.8%.","A December Fed","Hike Is Now","97% Priced In."],"highlight_line":0,"size":98,"subtitle":"Markets Update","brand":true},
+  {"type":"highlight","title":"What Happened Wednesday, Nov 25","big":"3.8%","body":"October PCE inflation rose 0.3% on the month and 3.8% from a year earlier. Core PCE, which excludes food and energy, was up 3.3%."},
+  {"type":"chart","title":"The Numbers: October PCE","subtitle":"PCE inflation, % year over year","bars":[{"label":"Headline","value":3.8},{"label":"Core","value":3.3},{"label":"Core forecast*","value":3.2,"forecast":true}],"max":4.5,"body":"Core came in above the 3.2% economists expected. Q3 GDP was revised up to 4.3%."},
+  {"type":"highlight","title":"Why It Matters","big":"97%","body":"Futures priced a 97% chance of a December Fed hike, per CME FedWatch. Strong growth plus hotter core inflation leaves less room to wait."},
+  {"type":"list","title":"What to Watch Next","items":["Nov 27: Stocks close early","Dec 4: November jobs report","Dec 8-9: Fed rate decision"],"brand":true}
+ ]
+}
