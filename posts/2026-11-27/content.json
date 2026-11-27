@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-27/slides",
+ "slides": [
+  {"type":"cover","headline":["Stocks Gained","3.9% This Week.","Inflation Still","Says Hike."],"highlight_line":1,"size":98,"subtitle":"FedBite Week in Review","brand":true},
+  {"type":"highlight","title":"Number of the Week","big":"+3.9%","body":"The S&P 500 gained 3.9% through Wednesday, Nov 25, after an 8.6% drop the week before. On Wednesday alone it fell as much as 3.2%, then closed down just 0.3%."},
+  {"type":"chart","title":"Story 1: A Wild Rebound Week","subtitle":"Weekly change through Nov 25, %","bars":[{"label":"S&P 500","value":3.9},{"label":"Dow","value":4.2},{"label":"Nasdaq","value":4.3},{"label":"Russell 2000","value":4.7}],"max":5.5,"body":"The Dow closed above 50,000 at 50,182.95."},
+  {"type":"highlight","title":"Story 2: Hot Inflation","big":"3.8%","body":"October PCE inflation ran 3.8% from a year earlier; core was 3.3%. Q3 growth was revised up to 4.3%. Futures price a December Fed hike at about 97%."},
+  {"type":"list","title":"Story 3 and What to Watch","items":["30-yr mortgage: 7.21% vs 6.23% a year ago","Dec 4: November jobs report","Dec 8-9: Fed rate decision"],"brand":true}
+ ]
+}
