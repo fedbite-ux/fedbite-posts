@@ -163,3 +163,8 @@
 - Consequence headlines lead CNBC (a Fed signal on higher rates, a GDP revision prompting a political reaction); the "so what" beats the raw print.
 - Contrast framing (a warning paired with an opportunity, bull market versus insider selling) keeps recurring after volatile weeks.
 - Calm, attributed tone with dated figures; CNBC finance page only, no engagement data visible. Style only, not facts.
+
+## 2026-11-28
+- Record-streak framing ("best week since 2022") leads CNBC and Yahoo Finance recaps; the superlative plus a time anchor is the hook.
+- Rally-versus-risk contrast (stocks surge while yields and rate-hike expectations stay high) keeps recurring after volatile weeks.
+- Calm, attributed tone with dated figures; CNBC front page and Yahoo Finance only, no engagement data visible. Style only, not facts.

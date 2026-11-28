@@ -1,0 +1,10 @@
+{
+ "out": "posts/2026-11-28/slides",
+ "slides": [
+  {"type":"cover","headline":["The Dow Had Its","Best Week Since","2022. Yields","Rose Too."],"highlight_line":1,"size":98,"subtitle":"Market Close, Nov 27","brand":true},
+  {"type":"highlight","title":"What Happened","big":"+5.5%","body":"The Dow gained 5.5% this week, its best since October 2022. The S&P 500 rose 5.6% and the Nasdaq 6.7% after the prior week's rout."},
+  {"type":"chart","title":"A Big Rebound Week","subtitle":"Weekly change through Nov 27, %","bars":[{"label":"Nasdaq","value":6.7},{"label":"S&P 500","value":5.6},{"label":"Dow","value":5.5}],"max":8,"body":"Friday close (1 p.m. ET): Dow 50,774.94, S&P 500 7,297.49."},
+  {"type":"highlight","title":"Why It Matters","big":"4.94%","body":"The 10-year Treasury yield rose from 4.86% on Friday. Traders still expect more Fed rate hikes, so borrowing costs stay the risk behind the rally."},
+  {"type":"list","title":"What to Watch Next","items":["Dec 4: November jobs report","Dec 9: Fed rate decision","10-year yield vs 5%"],"brand":true}
+ ]
+}
